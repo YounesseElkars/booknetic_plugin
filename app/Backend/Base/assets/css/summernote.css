@@ -1,0 +1,73 @@
+
+/*
+	summernote
+*/
+
+.bkntc_shortcode{
+    display: inline-block;
+    background-color: #ededee;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 2px 0;
+    border-radius: 4px;
+    margin: 2px;
+    user-select: none;
+    color: #212529;
+    cursor: pointer;
+}
+.bkntc_keywords_dropdown {
+    width: 420px;
+    padding: 0;
+}
+.bkntc_keywords_dropdown ul{
+    overflow-y:auto;
+    max-height: 250px;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    padding-right: 8px;
+}
+.bkntc_keywords_dropdown ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bkntc_keywords_dropdown ul li a:hover{
+    background-color: #ededee;
+    color: #212529;
+}
+
+.bkntc_keywords_dropdown ul li a > span:first-child {
+    font-size: 13px;
+    padding: 6px;
+}
+
+.bkntc_keywords_dropdown ul li a > span:last-child {
+    width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 12px;
+    color: #9ba6af;
+}
+
+.bkntc_keywords_search {
+    margin: 3px 0 10px;
+}
+.bkntc_keywords_search input {
+    outline: none;
+    border: 1px solid #e3eaf3;
+    padding: 2px 3px;
+    width: 100%;
+    display: block;
+}
+
+.bkntc_keywords_dropdown .focused a {
+    background-color: #f1f1f1;
+}
+
+.note-group-select-from-files {
+    display: none;
+}

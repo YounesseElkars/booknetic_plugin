@@ -1,0 +1,42 @@
+.checkout_wrapper {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.checkout_coupon_input {
+    margin: 15px 0px;
+}
+
+.checkout_price_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout_price_item__title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.checkout_price_item__price {
+    font-size: 14px;
+    color: #292d32;
+}
+
+.cart-addon-old-price {
+    text-decoration: line-through;
+    color: #828f9a;
+}
+
+.checkout_price_item_total {
+    border-top: 1px solid #d7d9dc;
+    padding-top: 10px;
+}
+
+.checkout_error
+{
+    display: block;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}

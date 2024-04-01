@@ -1,0 +1,81 @@
+.bkntc_order_item {
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#bkntc_services_order_list .bkntc_order_item {
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.bkntc_order_item > div:first-child:after {
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: 50%;
+    height: 1px;
+    width: 100%;
+    background: #6C70DC;
+}
+
+.bkntc_order_item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.bkntc_order_item > div:first-child {
+    position: relative;
+    padding: 16px;
+    margin-bottom: 8px;
+    border-left: 1px solid #6C70DC;
+}
+
+.bkntc_order_item .bkntc_order_items_wrapper {
+    padding-left: 16px;
+}
+
+.bkntc_order_item_parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.bkntc_order_item_parent:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: calc(100% - 8px);
+    width: 1px;
+    background: #6C70DC;
+}
+
+.bkntc_order_item.selected > div:first-child{
+    background: rgba(108,112,220,0.1);
+}
+
+
+.bkntc_order_item > div:first-child {
+    background: #fff;
+}
+
+
+.bkntc_order_item .bkntc_order_item_sort_helper {
+    margin-right: 10px;
+    color: #6C70DC;
+    cursor: move;
+}
+
+.bkntc_order_items_wrapper {
+    overflow: auto;
+    max-height: 61vh;
+}
+
+.rtl #fs_data_table_div
+{
+    text-align: right;
+}

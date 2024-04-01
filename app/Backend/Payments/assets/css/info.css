@@ -1,0 +1,98 @@
+.fs-modal .bordered-light-portlet
+{
+	border: 1px dashed #c0d6df;
+
+	padding: 30px;
+
+	-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+}
+
+.fs-modal label
+{
+	font-size: 16px;
+	color: #292D32;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.fs-modal .form-group 
+{
+	margin-bottom: 1.5rem !important;
+}
+
+.fs-modal .form-control-plaintext
+{
+	color: #828F9A;
+	font-size: 14px;
+	padding-top: 0;
+}
+
+/* Checkout details section */
+
+.fs-modal .checkout-details {
+	max-width: 340px;
+	margin-left: auto;
+	border: 1px solid #C0D6DF;
+	border-radius: 8px;
+	padding: 24px 24px 32px 24px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.fs-modal .checkout-details > h6 {
+	margin-bottom: 24px;
+	font-weight: 500;
+}
+
+.fs-modal .checkout-details .checkout-details--items {
+	padding-bottom: 24px;
+	border-bottom: 1px solid #ADBFC7;
+}
+
+.fs-modal .checkout-details .checkout-details--items > div,
+.fs-modal .checkout-details .checkout-details--info > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fs-modal .checkout-details .checkout-details--items > div:not(:last-child),
+.fs-modal .checkout-details .checkout-details--info > div:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.fs-modal .checkout-details .checkout-details--items > div > span:last-child {
+	font-weight: 500;
+}
+
+.fs-modal .checkout-details .checkout-details--info {
+	padding-top: 24px;
+}
+
+.fs-modal .checkout-details .checkout-details--info > div {
+	font-weight: 500;
+}
+
+.fs-modal .checkout-details .checkout-details--info .checkout-details--info-paid > span:last-child,
+.fs-modal .checkout-details .checkout-details--info .checkout-details--info-due > span:last-child {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.fs-modal .checkout-details .checkout-details--info .checkout-details--info-paid > span:last-child {
+	color: #26D090;
+}
+
+.fs-modal .checkout-details .checkout-details--info .checkout-details--info-due > span:last-child {
+	color: #FB3E6E;
+}
+
+.rtl .checkout-details > h6
+{
+	text-align: right;
+}
+
+/* Checkout details section End */

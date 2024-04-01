@@ -1,0 +1,298 @@
+.addons_filter_panel {
+  padding: 30px 40px 0 40px;
+}
+
+.addons_filter_panel i {
+  height: 18px;
+}
+
+.addons_filter_panel > div {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.addons_filter_panel > div:not(:last-child) input,
+.addons_filter_panel > div .select2-selection {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.addons_filter_panel > div:not(:first-child) input,
+.addons_filter_panel > div .select2-selection {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.addons_filter_panel .search_input {
+  border: 0;
+  padding-left: 55px;
+  border-left: 1px solid;
+}
+
+.addons_filter_panel .form-control,
+.addons_filter_panel .select2-selection,
+.addons_filter_panel .select2 {
+  height: 60px !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  border-right: 0 !important;
+  border-color: #e4ebf4 !important;
+}
+
+.addons_filter_panel .select2-selection__rendered {
+  color: #828f9a !important;
+  padding: 15px 3px !important;
+}
+
+.addons_filter_panel .select2-selection--multiple .select2-selection__rendered {
+  padding: 9px 0 !important;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.addons_filter_panel .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #6c70dc !important;
+}
+
+.addons_filter_panel > hr {
+  margin: 30px 0 20px 0;
+}
+
+.addons_search_result {
+  color: #303133;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+
+.addons_content {
+  padding: 0 40px 40px 40px;
+}
+
+.addons_card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.addons_card::after {
+  content: " ";
+  position: absolute;
+  bottom: -10px;
+  height: 10px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  background-image: url("../../../Base/assets/images/bottom_dashed.png");
+}
+
+.addons_card > img {
+  width: 100%;
+  min-height: 140px;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.addons_card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px 20px 12px 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.addons_card_content .card span {
+  display: block;
+}
+
+.addons_card_content .card_name {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0 8px 8px 0;
+}
+
+.addons_card_content .card_category {
+  position: absolute;
+  top: -40px;
+  right: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  background-color: #FFCE31;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.addons_card_content .card_price {
+  margin-bottom: 8px;
+}
+
+.addons_card_content .card_price > span {
+  font-weight: 500;
+}
+
+.addons_card_content .card_price > span.discount {
+  font-size: 14px;
+}
+
+.addons_card_content .card_stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.addons_card_content .card_stats > * {
+  white-space: nowrap;
+}
+
+.addons_card_content .card_stats .sales,
+.addons_card_content .card_stats .downloads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #828f9a;
+}
+
+.addons_card_content .card_stats .sales > span,
+.addons_card_content .card_stats .downloads > span {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.addons_card_content .card_stats .boostore_rating i {
+  width: 12px;
+  height: 12px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.addons_card_content .card_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addons_card_content .card_btns > a,
+.addons_card_content .card_btns > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px !important;
+  height: 40px !important;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addons_card_wrapper {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.addons_card_wrapper .card_col {
+  padding: 0 10px 30px 10px;
+  display: flex;
+}
+
+.select2-results__option--highlighted {
+  background-color: #6c70dc !important;
+}
+
+.select2-results__options[aria-multiselectable=true] > li[aria-selected=true] {
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 767px) {
+  .addons_filter_panel > div {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .addons_filter_panel .form-control,
+  .addons_filter_panel .select2-selection {
+    border: 1px solid #e3eaf3 !important;
+  }
+  .addons_filter_panel .row > * {
+    margin-bottom: 6px !important;
+  }
+}
+
+
+.btn-info
+{
+  background-color: #fff !important;
+  color: #6c70dc !important;
+  border: 1px solid #6c70dc !important;
+}
+
+.btn-info:hover
+{
+  background-color: #f0f1f4 !important;
+  color: #6c70dc !important;
+}
+
+.btn-info-secondary
+{
+  background-color: rgba(108, 112, 220, 0.15) !important;
+  color: #6c70dc !important;
+  border: 1px solid #6c70dc !important;
+}
+
+.btn-info-secondary:hover
+{
+  background-color: rgba(108, 112, 220, 0.3) !important;
+  color: #6c70dc !important;
+}
+
+#bkntc-buy-all-banner-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 0 40px;
+}
+
+#bkntc-buy-all-banner  {
+  padding: 16px;
+  width: 100%;
+  background-color: #6D70DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+}
+
+#bkntc-banner-text {
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+  margin: 0 16px 0 0;
+}
+
+#buy_all {
+  padding: 16px 20px;
+  margin-left: 16px !important;
+  font-size: 16px !important;
+  white-space: nowrap;
+}

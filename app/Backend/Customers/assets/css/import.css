@@ -1,0 +1,18 @@
+.customer_export_img
+{
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f5f6f9;
+	border: 1px solid #e1e8f1;
+	margin: 5px 0;
+}
+
+.customer_export_title
+{
+	font-size: 14px;
+	color: #292D32;
+	margin-bottom: 30px;
+}

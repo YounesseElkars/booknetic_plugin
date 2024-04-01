@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>view</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Booking-settings---labels-edit" transform="translate(-943.000000, -118.000000)">
+            <g id="view" transform="translate(943.000000, 118.000000)">
+                <g id="Group-23-Copy" fill="#C7CFD9">
+                    <circle id="Oval" cx="12" cy="12" r="12"></circle>
+                </g>
+                <path d="M12,7 C16.7157895,7 19,12 19,12 C19,12 16.7305263,17 12,17 C7.26947368,17 5,12 5,12 C5,12 7.28421053,7 12,7 Z M12,8.13354037 C9.98105263,8.13354037 8.33052632,9.85714286 8.33052632,12 C8.33052632,14.1273292 9.96631579,15.8664596 12,15.8664596 C14.0336842,15.8664596 15.6694737,14.1428571 15.6694737,12 C15.6694737,9.87267081 14.0189474,8.13354037 12,8.13354037 Z M12,9.5 C13.3103682,9.5 14.3726316,10.6192881 14.3726316,12 C14.3726316,13.3807119 13.3103682,14.5 12,14.5 C10.6896318,14.5 9.62736842,13.3807119 9.62736842,12 C9.62736842,10.6192881 10.6896318,9.5 12,9.5 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,104 @@
+.label_settings_container
+{
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: center;
+}
+#translate_edit_icon
+{
+	display: none;
+	position: fixed;
+	z-index: 2;
+	padding: 10px 16px;
+	margin: -10px -1px;
+	cursor: pointer;
+	background: none;
+	width: auto;
+	height: auto;
+}
+#translate_save_icon
+{
+	display: none;
+	position: fixed;
+	z-index: 2;
+	cursor: pointer;
+}
+#translate_cancel_icon
+{
+	display: none;
+	position: fixed;
+	z-index: 2;
+	cursor: pointer;
+}
+.in_edit_mode
+{
+	position: relative;
+	border-bottom: 1px solid #E3EAF3;
+	cursor: text;
+}
+
+.select_langugage_section
+{
+	display: flex;
+	justify-content: center;
+	height: 80px;
+	align-items: center;
+	box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.05);
+	margin: -15px -25px 40px;
+}
+
+.select_langugage_section > div
+{
+	width: 1000px;
+	display: flex;
+}
+
+.select_langugage_section select
+{
+	width: 300px;
+	margin-right: 20px;
+}
+
+#start_transaltion, #set_default_langugage
+{
+	height: 46px;
+	width: auto;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 1440px) {
+	.booknetic_appointment {
+		transform: scale(.6);
+		margin-top: -100px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.booknetic_appointment {
+		transform: scale(.68);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.booknetic_appointment {
+		transform: scale(.6);
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.booknetic_appointment {
+		transform: scale(.35);
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.booknetic_appointment {
+		transform: scale(.3);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.booknetic_appointment {
+		transform: scale(.25);
+	}
+}

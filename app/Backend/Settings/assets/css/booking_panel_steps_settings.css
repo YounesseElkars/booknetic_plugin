@@ -1,0 +1,123 @@
+.iti__flag-container
+{
+	width: 100%;
+	background: #FFF;
+	border: 1px solid #e3eaf3;
+	border-radius: 2px;
+	z-index: 9;
+}
+.iti__selected-flag
+{
+	background: #FFF !important;
+	font-size: 14px;
+	color: #495057;
+}
+.iti__arrow
+{
+	position: absolute;
+	right: 10px;
+	border-top-color: #999 !important;
+}
+
+.iti--allow-dropdown
+{
+	width: 100%;
+}
+
+#input_default_phone_country_code
+{
+	border: 0;
+	opacity: 0;
+}
+
+.step_element
+{
+	width: 320px;
+	height: 46px;
+
+	background: #FFF;
+	border: 1px solid #E3EAF3;
+	border-radius: 2px;
+
+	margin-bottom: 10px;
+	padding: 11px 15px;
+
+	cursor: pointer;
+	font-size: 14px;
+	color: #292D32;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.step_element .drag_drop_helper
+{
+	color: #ADBFC7;
+	margin-right: 10px;
+	cursor: move;
+}
+.step_element.no_drag_drop .drag_drop_helper
+{
+	opacity: 0.4;
+	cursor: no-drop;
+}
+.step_element > .step_switch
+{
+	float: right;
+	padding-top: 3px;
+}
+.selected_step
+{
+	background: rgba(108,112,220,0.1);
+}
+.selected_step .drag_drop_helper
+{
+	color: #6C70DC;
+}
+
+.step_settings_container
+{
+	display: flex;
+}
+.step_elements_list
+{
+	width: 350px;
+}
+.step_elements_options
+{
+	width: calc(100% - 350px);
+	padding: 25px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.step_settings_container
+	{
+		flex-direction: column;
+	}
+	.step_elements_list
+	{
+		width: 100%;
+	}
+	.step_elements_options
+	{
+		width: 100%;
+	}
+	.step_element
+	{
+		width: 100%;
+	}
+}
+
+.rtl .step_element
+{
+	text-align: right;
+}
+
+.rtl .step_element > .step_switch
+{
+	float: left;
+}

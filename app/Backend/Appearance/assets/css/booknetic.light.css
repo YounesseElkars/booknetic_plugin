@@ -1,0 +1,321 @@
+.booknetic_appointment *
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+.booknetic_appointment
+{
+	min-width: 980px;
+	width: 980px;
+	height: 600px;
+	background-color: #F5F7FA;
+
+	-webkit-box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+	-moz-box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+	box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+
+	display: flex;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.booknetic_appointment_steps
+{
+	width: 230px;
+	height: 100%;
+	background-color: #292D32;
+	position: relative;
+
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.booknetic_appointment_steps_body
+{
+	padding: 30px 30px 0 30px;
+	overflow-y: auto;
+	max-height: 525px;
+	word-break: break-all;
+}
+.booknetic_appointment_steps_footer
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	border-top: 1px solid #3D4145;
+
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 15px 30px;
+	display: none;
+}
+.booknetic_appointment_steps_footer_txt1
+{
+	color: #545D66;
+}
+.booknetic_appointment_step_element
+{
+	color: #626C76;
+	font-size: 14px;
+	margin-bottom: 28px;
+	line-height: 21px;
+	cursor: pointer;
+	display: none;
+}
+.booknetic_selected_step
+{
+	color: #4FBF65;
+}
+
+.booknetic_active_step
+{
+	color: #FFFFFF;
+}
+
+.booknetic_badge
+{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: #4D545A;
+	vertical-align: middle;
+	margin-right: 7px;
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 24px;
+
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+}
+
+.booknetic_selected_step > .booknetic_badge
+{
+	position: relative;
+	background: #4FBF65;
+}
+.booknetic_selected_step > .booknetic_badge:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #4FBF65;
+	background-image: url('../../../Base/assets/icons/check-white.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10px 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.booknetic_active_step > .booknetic_badge
+{
+	background: #6C70DC;
+}
+
+
+
+.booknetic_appointment_container
+{
+	background: #f5f7fa;
+	width: calc(100% - 230px);
+	position: relative;
+	height: 100%;
+}
+.booknetic_appointment_container_header
+{
+	padding: 15px 30px;
+	height: 60px;
+	border-bottom: 1px solid #E4EBF3;
+	width: 100%;
+	color: #292D32;
+	font-size: 18px;
+	font-weight: 500;
+}
+.booknetic_appointment_container_body
+{
+	position: relative;
+	padding: 30px;
+	overflow: auto;
+	height: calc(100% - 135px);
+}
+.booknetic_appointment_container_footer
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	background: #FFF;
+	padding: 20px 30px;
+	border-top: 1px solid #E4EBF4;
+	display: flex;
+	justify-content: space-between;
+}
+
+.booknetic_appointment_container_body>div
+{
+	height: 100%;
+}
+
+.booknetic_service_card
+{
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	cursor: pointer;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_service_card.booknetic_service_card_selected
+{
+	border: 2px solid #53D56C;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.booknetic_service_card_image
+{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	margin: 15px 20px;
+}
+.booknetic_service_card.booknetic_service_card_selected .booknetic_service_card_image
+{
+	margin-top: 13px;
+	margin-left: 18px;
+}
+.booknetic_service_card_image > img
+{
+	height: 100%;
+	width: auto;
+}
+.booknetic_service_card_title
+{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 200px;
+	height: 100%;
+}
+.booknetic_service_card_title > span:first-child
+{
+	color: #292D32;
+	font-size: 14px;
+	font-weight: 500;
+}
+.booknetic_service_card_title > span:last-child
+{
+	color: #828F9A;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.booknetic_service_card_description
+{
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #828F9A;
+	font-size: 12px;
+	line-height: 19px;
+	max-width: 240px;
+	overflow: hidden;
+}
+.booknetic_service_card_price
+{
+	float: right;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+	font-weight: 300;
+	text-align: right;
+	color: #4FBF65;
+	font-size: 26px;
+}
+.booknetic_service_category
+{
+	color: #6C70DC;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.booknetic_service_category:first-child
+{
+	margin-top: 0;
+}
+
+
+
+
+
+
+.booknetic_btn_primary
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 5px 15px;
+	outline: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #6C70DC !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+.booknetic_btn_secondary
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 5px 15px;
+	outline: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #F7F8FB !important;
+	color: #8F9CA7 !important;
+	border: 1px solid #E3EAF3 !important;
+}
+
+.booknetic_appointment_step_element, .booknetic_appointment_steps_footer
+{
+	display: block !important;
+}
+

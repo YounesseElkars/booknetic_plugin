@@ -1,0 +1,3843 @@
+.booknetic_appointment *
+{
+	font-family: 'Poppins', sans-serif !important;
+	box-sizing: border-box !important;
+	align-content: unset;
+	align-items: unset;
+	align-self: unset;
+	animation: unset;
+	appearance: unset;
+	backface-visibility: unset;
+	background-blend-mode: unset;
+	background: unset;
+	binding: unset;
+	block-size: unset;
+	border-block-end: unset;
+	border-block-start: unset;
+	border-collapse: unset;
+	border-inline-end: unset;
+	border-inline-start: unset;
+	border-radius: unset;
+	border-spacing: unset;
+	border: unset;
+	bottom: unset;
+	box-align: unset;
+	box-decoration-break: unset;
+	box-direction: unset;
+	box-flex: unset;
+	box-ordinal-group: unset;
+	box-orient: unset;
+	box-pack: unset;
+	box-shadow: unset;
+	caption-side: unset;
+	clear: unset;
+	clip-path: unset;
+	clip-rule: unset;
+	clip: unset;
+	color-adjust: unset;
+	color-interpolation-filters: unset;
+	color-interpolation: unset;
+	color: unset;
+	column-fill: unset;
+	column-gap: unset;
+	column-rule: unset;
+	columns: unset;
+	content: unset;
+	control-character-visibility: unset;
+	counter-increment: unset;
+	counter-reset: unset;
+	cursor: unset;
+	dominant-baseline: unset;
+	empty-cells: unset;
+	fill-opacity: unset;
+	fill-rule: unset;
+	fill: unset;
+	filter: unset;
+	flex-flow: unset;
+	flex: unset;
+	float-edge: unset;
+	float: unset;
+	flood-color: unset;
+	flood-opacity: unset;
+	font-feature-settings: unset;
+	font-kerning: unset;
+	font-language-override: unset;
+	font-size-adjust: unset;
+	font-size: unset;
+	font-stretch: unset;
+	font-style: unset;
+	font-synthesis: unset;
+	font-variant: unset;
+	font-weight: unset;
+	force-broken-image-icon: unset;
+	height: unset;
+	hyphens: unset;
+	image-orientation: unset;
+	image-region: unset;
+	image-rendering: unset;
+	ime-mode: unset;
+	inline-size: unset;
+	isolation: unset;
+	justify-content: unset;
+	justify-items: unset;
+	justify-self: unset;
+	left: unset;
+	letter-spacing: unset;
+	lighting-color: unset;
+	line-height: unset;
+	list-style: unset;
+	margin-block-end: unset;
+	margin-block-start: unset;
+	margin-inline-end: unset;
+	margin-inline-start: unset;
+	margin: unset;
+	marker-offset: unset;
+	marker: unset;
+	mask-type: unset;
+	mask: unset;
+	max-block-size: unset;
+	max-height: unset;
+	max-inline-size: unset;
+	max-width: unset;
+	min-block-size: unset;
+	min-height: unset;
+	min-inline-size: unset;
+	min-width: unset;
+	mix-blend-mode: unset;
+	object-fit: unset;
+	object-position: unset;
+	offset-block-end: unset;
+	offset-block-start: unset;
+	offset-inline-end: unset;
+	offset-inline-start: unset;
+	opacity: unset;
+	order: unset;
+	orient: unset;
+	outline-offset: unset;
+	outline-radius: unset;
+	outline: unset;
+	overflow: unset;
+	padding-block-end: unset;
+	padding-block-start: unset;
+	padding-inline-end: unset;
+	padding-inline-start: unset;
+	padding: unset;
+	page-break-after: unset;
+	page-break-before: unset;
+	page-break-inside: unset;
+	paint-order: unset;
+	perspective-origin: unset;
+	perspective: unset;
+	pointer-events: unset;
+	position: unset;
+	quotes: unset;
+	resize: unset;
+	right: unset;
+	ruby-align: unset;
+	ruby-position: unset;
+	scroll-behavior: unset;
+	scroll-snap-coordinate: unset;
+	scroll-snap-destination: unset;
+	scroll-snap-points-x: unset;
+	scroll-snap-points-y: unset;
+	scroll-snap-type: unset;
+	shape-rendering: unset;
+	stack-sizing: unset;
+	stop-color: unset;
+	stop-opacity: unset;
+	stroke-dasharray: unset;
+	stroke-dashoffset: unset;
+	stroke-linecap: unset;
+	stroke-linejoin: unset;
+	stroke-miterlimit: unset;
+	stroke-opacity: unset;
+	stroke-width: unset;
+	stroke: unset;
+	tab-size: unset;
+	table-layout: unset;
+	text-align-last: unset;
+	text-align: unset;
+	text-anchor: unset;
+	text-combine-upright: unset;
+	text-decoration: unset;
+	text-emphasis-position: unset;
+	text-emphasis: unset;
+	text-indent: unset;
+	text-orientation: unset;
+	text-overflow: unset;
+	text-rendering: unset;
+	text-shadow: unset;
+	text-size-adjust: unset;
+	text-transform: unset;
+	top: unset;
+	transform-origin: unset;
+	transform-style: unset;
+	transform: unset;
+	transition: unset;
+	user-focus: unset;
+	user-input: unset;
+	user-modify: unset;
+	user-select: unset;
+	vector-effect: unset;
+	vertical-align: unset;
+	visibility: unset;
+	white-space: unset;
+	width: unset;
+	will-change: unset;
+	window-dragging: unset;
+	word-break: unset;
+	word-spacing: unset;
+	word-wrap: unset;
+	writing-mode: unset;
+	z-index: unset;
+}
+
+.rtl .booknetic_appointment_step_element
+{
+	text-align: right;
+}
+
+
+.rtl
+{
+	direction: rtl;
+}
+
+.rtl .booknetic_appointment_container_header
+{
+	display: flex;
+	align-items: center;
+}
+
+.rtl .booknetic_appointment_container_header_text {
+	text-align: right;
+}
+
+.rtl  .form-row > .booknetic_appointment .col, .rtl .form-row > [class*="col-"]
+{
+	text-align: right;
+}
+
+.rtl  .booknetic_service_category
+{
+	text-align: right;
+}
+
+
+
+.booknetic_appointment .form-row label
+{
+	color: #292D32;
+}
+
+.booknetic_appointment
+{
+	position: relative;
+	overflow: hidden;
+	min-width: 980px;
+	width: 980px;
+	height: 600px;
+	background-color: #F5F7FA;
+
+	-webkit-box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+	-moz-box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+	box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+
+	display: flex;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.booknetic_appointment_steps
+{
+	width: 230px;
+	height: 100%;
+	background-color: #292D32;
+	position: relative;
+
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+	.booknetic_appointment_steps.has-logo {
+		height: 200px !important;
+	}
+}
+
+.booknetic_company_logo
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.booknetic_company_logo > img
+{
+	max-width: 100px;
+	max-height: 100px;
+}
+.booknetic_appointment_steps_body
+{
+	padding: 30px 30px 0 30px;
+	overflow-y: auto;
+	max-height: 525px;
+	word-break: break-all;
+}
+.booknetic_appointment_steps_footer
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	border-top: 1px solid #3D4145;
+	text-align: left;
+
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 15px 30px;
+	display: none;
+}
+.booknetic_appointment_steps_footer_txt1
+{
+	color: #545D66;
+}
+.booknetic_appointment_step_element
+{
+	color: #626C76;
+	font-size: 14px;
+	margin-bottom: 28px !important;
+	line-height: 21px;
+	cursor: default;
+	display: none;
+	text-align: left;
+	position: static !important;
+}
+.booknetic_selected_step
+{
+	color: #4FBF65;
+}
+
+.booknetic_active_step
+{
+	color: #FFFFFF;
+}
+
+.booknetic_badge
+{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: #4D545A;
+	vertical-align: middle;
+	margin-right: 7px;
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 24px;
+
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+}
+
+.booknetic_selected_step > .booknetic_badge
+{
+	position: relative;
+	background: #4FBF65;
+}
+.booknetic_selected_step > .booknetic_badge:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #4FBF65;
+	background-image: url('../icons/check-white.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10px 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.booknetic_active_step > .booknetic_badge
+{
+	background: #6C70DC;
+}
+
+
+
+.booknetic_appointment_container
+{
+	background: #f5f7fa;
+	width: calc(100% - 230px);
+	position: relative;
+	height: 100%;
+}
+.booknetic_appointment_container_header
+{
+	padding: 15px 30px;
+	height: 60px;
+	border-bottom: 1px solid #E4EBF3;
+	width: 100%;
+	color: #292D32;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+}
+.booknetic_appointment_container_body
+{
+	position: relative;
+	padding: 26px;
+	overflow: auto;
+	height: calc(100% - 135px);
+}
+.booknetic_appointment_container_footer
+{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	background: #FFF;
+	padding: 20px 30px;
+	border-top: 1px solid #E4EBF4;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* doit: some wordpress themes such as betheme will add it's own margin and content style to [.button-flat button] class thus added !important */
+.booknetic_appointment_container_footer button:after
+{
+	content: unset;
+}
+
+.booknetic_appointment_container_body>div
+{
+	height: 100%;
+}
+
+.booknetic_warning_message
+{
+	max-width: 430px;
+	height: 36px;
+	background-color: #f4be6b;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 5px 10px;
+	line-height: 25px;
+	display: none;
+	margin-bottom: 15px;
+	z-index: 9;
+	white-space: nowrap;
+	overflow: hidden;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_warning_message:before
+{
+	content: '';
+	background: url(../icons/warning.svg);
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.booknetic_card
+{
+	position: relative;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width: 220px;
+	background: #FFF;
+	padding: 25px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.booknetic_card.booknetic_card_selected
+{
+	padding: 23px;
+	border: 2px solid #53D56C;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.booknetic_card:nth-child(3n)
+{
+	margin-right: 0;
+}
+
+.rtl .booknetic_card {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.rtl .booknetic_card:nth-child(3n)
+{
+	margin-left: 0;
+}
+
+.booknetic_card:not(.booknetic_card_selected):after
+{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
+
+	background-image: url('../images/bottom_dashed.png');
+}
+.booknetic_card_image
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	margin: 0 auto;
+}
+.booknetic_card_image > img
+{
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+}
+.booknetic_card_title
+{
+	margin-top: 11px;
+	text-align: center;
+	color: #292D32;
+	font-size: 14px;
+	font-weight: 500;
+	word-break: break-word;
+	height: 80px;
+	line-height: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.booknetic_card_title *
+{
+	text-align: center;
+}
+.booknetic_card_description
+{
+	color: #828F9A;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 400;
+	max-height: 60px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+
+
+
+
+.booknetic_preloader_card1
+{
+	position: relative;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width: 220px;
+	height: 210px;
+	background: #FFF;
+	padding: 25px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.booknetic_preloader_card1:after
+{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
+
+	background-image: url('../images/bottom_dashed.png');
+}
+.booknetic_preloader_card1_image
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	margin: 0 auto;
+
+	flex-shrink: 0;
+}
+.booknetic_preloader_card1_image:after
+{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.booknetic_preloader_card1_description:before
+{
+	content: '';
+	display: block;
+	width: 100px;
+	height: 8px;
+	margin: 25px auto 0;
+}
+.booknetic_preloader_card1_description:after
+{
+	content: '';
+	display: block;
+	width: 150px;
+	height: 8px;
+	margin: 14px auto;
+}
+.booknetic_preloader_card1:nth-child(3n)
+{
+	margin-right: 0;
+}
+
+
+
+.booknetic_preloader_card2
+{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	margin-bottom: 10px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_preloader_card2_image
+{
+	position: relative;
+	float: left;
+
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	margin: 15px 20px;
+}
+.booknetic_preloader_card2_image:after
+{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.booknetic_preloader_card2_description:before
+{
+	content: '';
+	position: absolute;
+	top: 25px;
+	left: 90px;
+	width: 250px;
+	height: 8px;
+}
+.booknetic_preloader_card2_description:after
+{
+	content: '';
+	position: absolute;
+	top: 47px;
+	left: 90px;
+	width: 500px;
+	height: 8px;
+}
+
+
+
+.booknetic_preloader_card3_box
+{
+	background: #FFF;
+	padding: 34px 20px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.booknetic_preloader_card3:before
+{
+	content: '';
+	display: block;
+	height: 8px;
+	width: 50%;
+	margin-bottom: 14px;
+}
+.booknetic_preloader_card3:after
+{
+	content: '';
+	display: block;
+	height: 8px;
+	width: 85%;
+	margin-bottom: 60px;
+}
+
+
+.booknetic_preloader_card1_image:after,
+.booknetic_preloader_card1_description:before,
+.booknetic_preloader_card1_description:after,
+
+.booknetic_preloader_card2_image:after,
+.booknetic_preloader_card2_description:before,
+.booknetic_preloader_card2_description:after,
+
+.booknetic_preloader_card3:before,
+.booknetic_preloader_card3:after
+{
+	background: #EDF0F4;
+
+	-webkit-animation: booknetic_preloader 2s infinite;
+	-o-animation:  booknetic_preloader 2s infinite;
+	animation:  booknetic_preloader 2s infinite;
+}
+
+
+
+.booknetic_preloader_card1:nth-child(2) .booknetic_preloader_card1_image:after,
+.booknetic_preloader_card1:nth-child(2) .booknetic_preloader_card1_description:before,
+.booknetic_preloader_card1:nth-child(2) .booknetic_preloader_card1_description:after,
+
+.booknetic_preloader_card2:nth-child(2) .booknetic_preloader_card2_image:after,
+.booknetic_preloader_card2:nth-child(2) .booknetic_preloader_card2_description:before,
+.booknetic_preloader_card2:nth-child(2) .booknetic_preloader_card2_description:after
+{
+	-webkit-animation-delay: 0.33s;
+	-moz-animation-delay: 0.33s;
+	-o-animation-delay: 0.33s;
+	animation-delay: 0.33s;
+}
+
+.booknetic_preloader_card1:nth-child(3) .booknetic_preloader_card1_image:after,
+.booknetic_preloader_card1:nth-child(3) .booknetic_preloader_card1_description:before,
+.booknetic_preloader_card1:nth-child(3) .booknetic_preloader_card1_description:after,
+
+.booknetic_preloader_card2:nth-child(3) .booknetic_preloader_card2_image:after,
+.booknetic_preloader_card2:nth-child(3) .booknetic_preloader_card2_description:before,
+.booknetic_preloader_card2:nth-child(3) .booknetic_preloader_card2_description:after
+{
+	-webkit-animation-delay: 0.66s;
+	-moz-animation-delay: 0.66s;
+	-o-animation-delay: 0.66s;
+	animation-delay: 0.66s;
+}
+
+
+.booknetic_preloader_card3:nth-child(2):before,
+.booknetic_preloader_card3:nth-child(2):after
+{
+	-webkit-animation-delay: 0.25s;
+	-moz-animation-delay: 0.25s;
+	-o-animation-delay: 0.25s;
+	animation-delay: 0.25s;
+}
+
+.booknetic_preloader_card3:nth-child(3):before,
+.booknetic_preloader_card3:nth-child(3):after
+{
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.booknetic_preloader_card3:nth-child(4):before,
+.booknetic_preloader_card3:nth-child(4):after
+{
+	-webkit-animation-delay: 0.75s;
+	-moz-animation-delay: 0.75s;
+	-o-animation-delay: 0.75s;
+	animation-delay: 0.75s;
+}
+
+
+@-moz-keyframes booknetic_preloader {
+	0% { background: #EDF0F4; }
+	50% { background: #F5F7FA; }
+	100% { background: #EDF0F4; }
+}
+@-webkit-keyframes booknetic_preloader {
+	0% { background: #EDF0F4; }
+	50% { background: #F5F7FA; }
+	100% { background: #EDF0F4; }
+}
+@-o-keyframes booknetic_preloader {
+	0% { background: #EDF0F4; }
+	50% { background: #F5F7FA; }
+	100% { background: #EDF0F4; }
+}
+@keyframes booknetic_preloader {
+	0% { background: #EDF0F4; }
+	50% { background: #F5F7FA; }
+	100% { background: #EDF0F4; }
+}
+
+
+
+.booknetic_service_card
+{
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_service_card.booknetic_service_card_selected
+{
+	border: 2px solid #53D56C;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.booknetic_service_card_image
+{
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin: 15px 20px;
+}
+.booknetic_service_card.booknetic_service_card_selected .booknetic_service_card_image
+{
+	margin-top: 13px;
+	margin-left: 18px;
+}
+.booknetic_service_card_image > img
+{
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+}
+.booknetic_service_card_title
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	text-align: left;
+	line-height: 18px;
+	flex-grow: 1;
+}
+
+.rtl .booknetic_service_card_title {
+	text-align: right;
+}
+
+.booknetic_service_card_title > span:first-child
+{
+	color: #292D32;
+	font-size: 14px;
+	font-weight: 500;
+	word-break: break-word;
+}
+.booknetic_service_card_title > span:last-child
+{
+	color: #828F9A;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.booknetic_service_card_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.booknetic_service_card_description
+{
+	color: #828F9A;
+	font-size: 12px;
+	line-height: 19px;
+	padding: 0 20px 20px;
+}
+.booknetic_service_card_price
+{
+	float: right;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-weight: 300;
+	text-align: right;
+	color: #4FBF65;
+	font-size: 26px;
+}
+.booknetic_service_category
+{
+	color: #6C70DC;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.bkntc_service_list > .booknetic_service_category:first-of-type
+{
+	margin-top: 0;
+}
+
+/*accordion-start*/
+.booknetic_category_accordion .booknetic_service_category, .booknetic_category_accordion .booknetic_service_extra_title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.booknetic_category_accordion .booknetic_service_category[data-parent="1"], .booknetic_category_accordion .booknetic_service_extra_title[data-parent="1"] {
+	cursor: pointer;
+}
+
+.booknetic_category_accordion .booknetic_service_category[data-parent="0"] span, .booknetic_category_accordion .booknetic_service_extra_title[data-parent="0"] span {
+	display: none;
+}
+
+.booknetic_category_accordion .booknetic_service_category span, .booknetic_category_accordion .booknetic_service_extra_title span {
+	width: 20px;
+	height: 20px;
+	-webkit-mask-image: url('data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz48cGF0aCBkPSJNMjk2LjIsOTkwbC03OS41LTc5LjlMNjI0LjMsNTAwTDIxNi43LDg5LjlMMjk2LjIsMTBsNDg3LjEsNDkwTDI5Ni4yLDk5MHoiLz48L2c+Cjwvc3ZnPg==');
+	-webkit-mask-repeat: no-repeat;
+	background: #6C70DC;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	transition: all 250ms ease-in-out;
+}
+
+.booknetic_category_accordion.active .booknetic_service_category span, .booknetic_category_accordion.active .booknetic_service_extra_title span {
+	transform: rotate(90deg);
+}
+.booknetic_category_accordion_hidden {
+	display: none !important;
+}
+/*accordion-end*/
+
+.booknetic_service_extra_card_title_quantity {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+.booknetic_service_extra_card
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border: 2px solid #FFF;
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+}
+
+.booknetic_service_extra_card_header
+{
+	display: flex;
+}
+.booknetic_service_extra_card.booknetic_service_extra_card_selected
+{
+	border: 2px solid #53D56C;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.booknetic_service_extra_card_image
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	margin: 15px 20px;
+}
+
+.booknetic_service_extra_card_image > img
+{
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+}
+.booknetic_service_extra_card_title
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	line-height: 18px;
+	margin-right: 24px;
+}
+.booknetic_service_extra_card_title > span:first-child
+{
+	color: #292D32;
+	font-size: 14px;
+	font-weight: 500;
+	word-break: break-word;
+}
+.booknetic_service_extra_card_title > span:last-child:not(:empty) {
+	min-width: 35px;
+	color: rgba(69, 44, 12, 0.74);
+	background-color: rgba(255, 205, 79, 0.74);
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 8px;
+	border-radius: 12px;
+	margin-top: 4px;
+}
+.booknetic_service_extra_card_price
+{
+	display: flex;
+	align-items: center;
+	padding-right: 15px;
+	font-weight: 300;
+	text-align: right;
+	color: #828F9A;
+	font-size: 26px;
+	line-height: 26px;
+	margin-left: 24px;
+}
+.booknetic_service_extra_card_selected .booknetic_service_extra_card_price
+{
+	color: #4FBF65;
+}
+.booknetic_service_extra_title
+{
+	color: #6C70DC;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.booknetic_service_extra_quantity
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.booknetic_service_extra_quantity_inc, .booknetic_service_extra_quantity_dec
+{
+	width: 34px !important;
+	height: 34px !important;
+	background-color: #F7F8FB;
+	border: 1px solid #E3EAF3;
+	border-radius: 2px;
+	text-align: center;
+	color: #ADBFC7;
+	line-height: 36px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.booknetic_service_extra_quantity_inc
+{
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+.booknetic_service_extra_quantity_dec
+{
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+.booknetic_service_extra_quantity_input
+{
+	width: 52px !important;
+	height: 34px !important;
+	border: 1px solid #E3EAF3 !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	outline: none !important;
+	text-align: center !important;
+	font-size: 14px !important;
+	color: #292D32 !important;
+	background: #FFF !important;
+	margin: 0 !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+
+.booknetic_service_extra_quantity_input:disabled
+{
+	border: 1px solid #E3EAF3 !important;
+}
+
+.booknetic_empty_box
+{
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_empty_box > span
+{
+	display: block;
+	font-size: 16px;
+	color: #828F9A;
+	line-height: 25px;
+	text-align: center;
+	margin: 30px;
+	max-width: 370px;
+}
+
+.booknetic_calendar_head
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.booknetic_calendar_head > div
+{
+	padding: 0 10px 10px 10px;
+}
+.booknetic_calendar_head > .booknetic_month_name
+{
+	color: #000000;
+	font-size: 14px;
+}
+.booknetic_next_month, .booknetic_prev_month
+{
+	font-size: 16px;
+	color: #111;
+	cursor: pointer;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+
+.booknetic_date_time_area
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.booknetic_date_time_area.booknetic_date_based_reservation
+{
+	justify-content: center;
+}
+
+.booknetic_calendar_div
+{
+	width: 370px;
+	height: auto;
+}
+
+.booknetic_date_time_area.booknetic_date_based_reservation .booknetic_time_div
+{
+	display: none;
+}
+
+#booknetic_calendar_area
+{
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_calendar
+{
+	margin: 0;
+}
+
+.booknetic_week_names > .booknetic_td
+{
+	color: #C8C9CC;
+	font-size: 13px;
+	letter-spacing: 0.2px;
+	text-align: center;
+	padding: 20px 5px 9px !important;
+	border-bottom: 1px solid #E4EBF4;
+}
+.booknetic_calendar > .booknetic_calendar_rows > .booknetic_td
+{
+	width: calc((100% - 20px) / 7);
+}
+.booknetic_calendar_rows > .booknetic_td:first-child
+{
+	padding-left: 15px !important;
+	width: calc((100% - 20px) / 7 + 10px);
+}
+.booknetic_calendar_rows > .booknetic_td:last-child
+{
+	padding-right: 15px !important;
+	width: calc((100% - 20px) / 7 + 10px);
+}
+.booknetic_calendar > div:nth-child(2) > .booknetic_td
+{
+	padding-top: 10px !important;
+}
+.booknetic_calendar > .booknetic_calendar_rows:last-child > .booknetic_td
+{
+	padding-bottom: 10px !important;
+}
+.booknetic_calendar > .booknetic_calendar_rows
+{
+	display: flex;
+}
+.booknetic_calendar_days
+{
+	padding: 5px !important;
+}
+.booknetic_calendar_days > div
+{
+	position: relative;
+	cursor: pointer;
+	background-color: #ECEFF2;
+	width: 100%;
+	height: 40px;
+	color: #111111;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.booknetic_calendar_days.booknetic_calendar_selected_day > div
+{
+	background-color: #6C70DC;
+	color: #FFF;
+}
+.booknetic_calendar_days.booknetic_calendar_empty_day > div
+{
+	cursor: default;
+	color: rgba(17,17,17,0.3);
+}
+.booknetic_calendar_days > div > span
+{
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+}
+.booknetic_calendar_days > div > span > i
+{
+	width: 5.8%;
+	height: 100%;
+	float: left;
+	display: block;
+}
+.booknetic_calendar_days > div > span > i[a]
+{
+	background: #4fbf65;
+}
+.booknetic_calendar_days > div > span > i[b]
+{
+	background: #ECEFF2;
+}
+
+
+
+
+.booknetic_times
+{
+	width: 305px;
+	height: 312px;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+.booknetic_times_head
+{
+	padding: 2px 10px 12px 10px;
+	color: #000000;
+	font-size: 14px;
+	text-align: center;
+}
+.booknetic_times_title
+{
+	color: #6C70DC;
+	font-size: 14px;
+	text-align: center;
+	padding: 15px 0 13px;
+	border-bottom: 1px solid #E3EAF3;
+}
+.booknetic_times_list
+{
+	overflow-y: scroll;
+	height: calc(100% - 50px);
+	padding: 5px 10px;
+}
+.booknetic_times_list > div
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #ECEFF2;
+	position: relative;
+	width: calc(33% - 10px);
+	height: 55px;
+	color: #111111;
+	font-size: 14px;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 1.8;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.booknetic_times_list *
+{
+	text-align: center;
+}
+.booknetic_times_list > div.booknetic_selected_time
+{
+	background: #4fbf65;
+	color: #FFF;
+}
+.booknetic_time_group_num
+{
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	min-width: 18px;
+	height: 18px;
+	background: #4FBF65;
+	color: #FFF;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 18px;
+	padding: 0 5px;
+
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+.booknetic_times_list > div.booknetic_selected_time .booknetic_time_group_num
+{
+	background: #FFF;
+	color: #4FBF65;
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.35);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.35);
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.booknetic_date_group_num
+{
+	white-space: nowrap;
+	font-size: 10px !important;
+	top: -8px !important;
+}
+
+.booknetic_btn_primary
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #6C70DC !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+.booknetic_btn_secondary
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #F7F8FB !important;
+	color: #8F9CA7 !important;
+	border: 1px solid #E3EAF3 !important;
+}
+.booknetic_btn_success
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #4FBF65 !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+
+.booknetic_btn_cancel
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+	margin-left: 8px;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #EA4335 !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+
+.booknetic_btn_warning
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: rgb(255, 193, 7) !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+
+.booknetic_social_login_facebook
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #1094F4 !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+.booknetic_social_login_google
+{
+	height: 36px;
+	font-weight: 600;
+	font-size: 12px !important;
+	line-height: 18px;
+	padding: 5px 15px !important;
+	outline: none !important;
+	cursor: pointer;
+	text-decoration: none !important;
+	margin-left: 10px;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: #EA4335 !important;
+	color: #FFF !important;
+	border: 0 !important;
+}
+
+.booknetic_text_primary
+{
+	color: #6C70DC !important;
+}
+.booknetic_text_secondary
+{
+	color: #8F9CA7 !important;
+}
+
+.booknetic_float_left
+{
+	float: left;
+}
+.booknetic_float_right
+{
+	float: right;
+}
+.booknetic_clearfix:after
+{
+	display: table;
+	content: '';
+	clear: both;
+}
+
+
+.booknetic_appointment .form-control ~ .select2
+{
+	width: 100% !important;
+}
+.booknetic_appointment .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b
+{
+	border-color: #adbfc7 transparent transparent transparent;
+}
+.booknetic_appointment .select2-container--bootstrap .select2-selection__clear
+{
+	color: #adbfc7;
+}
+.booknetic_appointment .select2-container--bootstrap .select2-selection__clear:hover
+{
+	color: #748086 !important;
+}
+.booknetic_appointment .select2-container--bootstrap .select2-selection--single .select2-selection__rendered
+{
+	color: #292D32;
+	font-size: 14px !important;
+	padding: 6px 0;
+}
+.select2-search__field
+{
+	outline: none !important;
+}
+.select2-container
+{
+	font-family: 'Poppins', sans-serif !important;
+}
+
+
+.booknetic_appointment .form-control:focus
+{
+	box-shadow: none !important;
+	border-color: #d3dae2;
+}
+.booknetic_appointment .form-control
+{
+	-webkit-border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	border-radius: 2px !important;
+
+	border-color: #E3EAF3;
+	height: 46px;
+
+	font-size: 14px;
+	color: #292D32;
+	outline: none !important;
+}
+.booknetic_appointment .form-control-plaintext
+{
+	font-size: 14px;
+	color: #292D32;
+	padding-top: 12px;
+}
+.booknetic_appointment .form-control-lg
+{
+	height: 62px;
+}
+.booknetic_appointment .form-group > label
+{
+	font-size: 14px;
+	text-align: left;
+}
+.booknetic_appointment .form-control[type="file"]
+{
+	display: none;
+}
+.booknetic_appointment .form-control[type="file"] ~ .form-control
+{
+	line-height: 28px;
+	color: #828F9A;
+	font-size: 14px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+.booknetic_appointment .form-control[type="file"] ~ .form-control:after
+{
+	content: attr(data-label);
+	position: absolute;
+	width: 70px;
+	height: 26px;
+	color: #FFF;
+	background: #ADBFC7;
+	font-size: 12px;
+	font-weight: 600;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: 10px;
+	top: 9px;
+}
+.booknetic_appointment textarea.form-control
+{
+	height: 120px;
+}
+.booknetic_appointment .required-star
+{
+	color: #ff6a4f;
+}
+.booknetic_appointment .form-row > .booknetic_appointment .col, .form-row > [class*="col-"]
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+
+.booknetic_appointment input[type="checkbox"]
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	width: 18px;
+	height: 18px;
+	background: #FFF;
+	border: 1px solid #cfd8dc;
+	outline: none;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.booknetic_appointment input[type="checkbox"][disabled]
+{
+	background: #e3eaf3;
+	cursor: not-allowed;
+}
+.booknetic_appointment input[type="checkbox"]:checked
+{
+	background: #53D56C;
+	border-color: #53D56C !important;
+}
+.booknetic_appointment input[type="checkbox"]:checked:before
+{
+	display: none;
+}
+.booknetic_appointment input[type="checkbox"]:checked:after
+{
+	all: unset;
+	content: "";
+	background: url(../icons/check-white.svg);
+	width: 10px !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: block;
+	height: 10px;
+	margin: 3px;
+}
+
+.booknetic_appointment input[type="radio"]:checked:focus
+{
+	outline: none;
+}
+
+.booknetic_appointment input[type="radio"]:checked:after
+{
+	all: unset;
+}
+
+.booknetic_appointment input[type="radio"]
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #FFF;
+	border: 1px solid #cfd8dc;
+	outline: none;
+	flex-shrink: 0;
+}
+.booknetic_appointment input[type="radio"]:checked
+{
+	border: 6px solid #53d56c;
+}
+.booknetic_appointment input[type="radio"] ~ label, .booknetic_appointment input[type="checkbox"] ~ label
+{
+	padding-left: 8px;
+	vertical-align: middle;
+	font-size: 14px;
+	height: auto;
+	color: #828F9A;
+	cursor: pointer;
+}
+
+#booknetic_bring_someone_checkbox ~ label
+{
+	line-height: 8px;
+	padding-left: 0;
+}
+
+.booknetic_appointment input[type="radio"]:checked ~ label, .booknetic_appointment input[type="checkbox"]:checked ~ label
+{
+	color: #292D32;
+}
+
+.booknetic_appointment [data-required="true"]:after
+{
+	content: '*';
+	color: #fb3e6e;
+	padding-left: 5px;
+}
+
+
+.booknetic_appointment .booknetic_input_error
+{
+	border-color: #fb3e76 !important;
+}
+
+.booknetic_portlet
+{
+	/*padding: 13px 20px;*/
+	background-color: #FFFFFF;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+
+.booknetic_portlet_cols
+{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.booknetic_confirm_date_time
+{
+	padding: 13px 20px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.booknetic_confirm_date_time > div
+{
+	display: inline-block;
+	width: calc(50% - 2px);
+	vertical-align: top;
+}
+
+
+.booknetic_confirm_details
+{
+	position: relative;
+	font-size: 14px;
+	font-weight: 500;
+}
+.booknetic_confirm_details:before
+{
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 100%;
+	border: 1px dashed #DBEBF2;
+}
+.booknetic_confirm_details:after
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+.booknetic_confirm_details > .booknetic_confirm_details_title
+{
+	float: left;
+	background: #FFF;
+	padding-right: 15px;
+	position: relative;
+	color: #55585c;
+	font-weight: 500;
+	max-width: 80%;
+	word-break: break-all;
+}
+.booknetic_confirm_details > .booknetic_confirm_details_price
+{
+	float: right;
+	background: #FFF;
+	padding-left: 15px;
+	color: #5ac36e;
+	font-weight: 500;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+[data-price-id="discount"] > .booknetic_confirm_details_title, [data-price-id="discount"] > .booknetic_confirm_details_price,
+.booknetic_gift_discount > .booknetic_confirm_details_title, .booknetic_gift_discount > .booknetic_gift_discount_price, .booknetic_gift_discount_price
+{
+	color: #E09B22 !important;
+}
+
+.booknetic_gift_discount
+{
+	display: none;
+}
+
+.booknetic_show_balance{
+	display: none;
+	font-size: 55%;
+	position: absolute;
+	left: 89%;
+	width: 10%;
+	align-content: center;
+	text-align: center;
+
+}
+
+.booknetic_confirm_container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+
+.booknetic_confirm_step_body
+{
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.booknetic_confirm_sum_body
+{
+	width: 370px;
+}
+.booknetic_confirm_sum_body_full_width
+{
+	width: 100%;
+}
+
+.booknetic_confirm_deposit_body
+{
+	width: 305px;
+}
+.booknetic_confirm_deposit_body_full_width
+{
+	width: 100%;
+}
+
+.booknetic_confirm_step_body .booknetic_portlet
+{
+	position: relative;
+	height: 100%;
+}
+
+.booknetic_confirm_step_body .booknetic_portlet_content {
+	flex-grow: 1;
+	padding: 13px 28px 13px 20px;
+	height: 180px;
+	overflow: auto;
+	/*padding-right: 8px;*/
+	margin-right: -8px;
+}
+
+.booknetic_deposit_price
+{
+	background-color: #F8D7DF;
+	color: #EE4B75;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 27px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+}
+.booknetic_deposit_price > div:last-child
+{
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.booknetic_confirm_sum_price
+{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #DDF7E2;
+	color: #4FBF65;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 27px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	height: 46px;
+}
+.booknetic_confirm_sum_price > div:last-child
+{
+	font-size: 18px;
+}
+
+.booknetic_select_method_txt
+{
+	font-size: 14px;
+	color: #292D32;
+	margin-bottom: 15px;
+}
+
+.booknetic_panel_footer
+{
+	position: relative;
+	left: 0;
+	margin: 10px;
+	display: flex;
+}
+.booknetic_add_coupon
+{
+	flex-grow: 1;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	border: 1px solid #E3EAF3;
+	margin: 0 10px;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.booknetic_add_coupon input, .booknetic_add_giftcard input
+{
+	text-align: left;
+	width: 70%;
+	border: 0 !important;
+	color: #828F9A;
+	font-size: 14px;
+	padding: 0 12px !important;
+	outline: 0 !important;
+	height: 30px;
+}
+
+.booknetic_add_coupon button, .booknetic_add_giftcard button
+{
+	height: 30px;
+	width: 54px;
+	text-align: center;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	position: relative;
+}
+.booknetic_add_coupon.booknetic_coupon_ok:after, .booknetic_add_giftcard.booknetic_giftcard_ok:after
+{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 145px;
+	background: url('../icons/success.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.booknetic_add_giftcard
+{
+	position: relative;
+	background-color: #FFFFFF;
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	border: 1px solid #E3EAF3;
+	margin-bottom: 12px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin: 8px;
+}
+
+.booknetic_payment_methods
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	overflow: auto;
+	padding: 16px;
+	align-content: flex-start;
+	flex-grow: 1;
+}
+
+.rtl .booknetic_payment_methods
+{
+	margin-right: 0;
+	margin-left: -15px;
+}
+
+.booknetic_payment_methods_container {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.booknetic_payment_methods_footer {
+	background-color: #F8D7DF;
+	font-size: 14px;
+	font-weight: 500;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.booknetic_confirm_deposit_body_full_width .booknetic_payment_methods
+{
+	justify-content: space-around;
+}
+.booknetic_payment_method
+{
+	width: 127px;
+	height: 80px;
+	cursor: pointer;
+	background: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	font-size: 14px;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0 6px 12px rgba(151, 151, 151, 0.12);
+	-moz-box-shadow: 0 6px 12px rgba(151, 151, 151, 0.12);
+	box-shadow: 0 6px 12px rgba(151, 151, 151, 0.12);
+}
+.booknetic_payment_method > img
+{
+	margin-bottom: 5px;
+	max-height: 40px;
+}
+.booknetic_payment_method > span
+{
+	text-align: center;
+}
+.booknetic_payment_method:nth-child(2n) {
+	margin-right: 0;
+}
+.booknetic_payment_method.booknetic_payment_method_selected
+{
+	border: 2px solid #53D56C;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.booknetic_deposit_radios
+{
+	display: flex;
+	color: #828F9A;
+	margin: 0 12px 12px;
+}
+.booknetic_deposit_radios > div:not(:last-child)
+{
+	margin-right: 15px;
+}
+
+.booknetic_hr
+{
+	border-top: 1px solid #E3EAF3;
+	height: 1px;
+}
+
+
+
+.booknetic_appointment_finished
+{
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: none;
+	padding: 30px 0;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_appointment_finished_icon
+{
+	text-align: center;
+}
+.booknetic_appointment_finished_title
+{
+	color: #4FBF65;
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.booknetic_appointment_finished_subtitle
+{
+	color: #828F9A;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.booknetic_appointment_finished_code
+{
+	font-size: 44px;
+	color: #292D32;
+	font-weight: 300;
+	letter-spacing: 10px;
+	margin-bottom: 35px;
+}
+.booknetic_appointment_finished_actions > button, .booknetic_appointment_finished_actions > a
+{
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 46px;
+	min-width: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.booknetic_appointment_finished_actions > button > img, .booknetic_appointment_finished_actions > a > img
+{
+	padding-right: 10px;
+	margin-top: -2px;
+}
+
+.rtl .booknetic_appointment_finished_actions > button > img, .rtl .booknetic_appointment_finished_actions > a > img
+{
+	padding-right: 0;
+	padding-left: 10px;
+}
+.booknetic_appointment_finished_actions
+{
+	text-align: center;
+	margin-top: 15px;
+	display: flex;
+}
+
+
+.booknetic_appointment_finished_with_error
+{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_appointment_finished_with_error > div
+{
+	max-width: 350px;
+	text-align: center;
+	color: #828F9A;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 30px;
+}
+
+.booknetic_loading_layout
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba( 255, 255, 255, 0.2 );
+	z-index: 999999999999999 !important;
+}
+
+
+@-moz-keyframes booknetic_slide {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0.3;
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@-webkit-keyframes booknetic_slide {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0.3;
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@-o-keyframes booknetic_slide {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0.3;
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes booknetic_slide {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0.3;
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+.booknetic_dashed_border
+{
+	background:
+			linear-gradient(to right, #c0d6df 50%, transparent 0%),
+			linear-gradient(#c0d6df 50%, transparent 0%),
+			linear-gradient(to right, #c0d6df 50%, transparent 0%),
+			linear-gradient(#c0d6df 50%, transparent 0%);
+
+	background-position: top, right, bottom, left;
+	background-repeat: repeat-x, repeat-y;
+	background-size: 8px 1px, 1px 8px;
+}
+
+
+.booknetic_inner_addon { position: relative; }
+.booknetic_inner_addon img, .booknetic_inner_addon i {
+	position: absolute;
+	padding: 14px;
+	pointer-events: none;
+	color: #dae2e6;
+	z-index: 1;
+}
+.booknetic_inner_addon > .select2 .select2-selection { padding-left: 40px !important;}
+.booknetic_left_addon img:first-child, .booknetic_left_addon i:first-child { left:  0px;}
+.booknetic_right_addon img:last-child, .booknetic_right_addon i:last-child { right: 0px; top: 0; }
+.booknetic_left_addon input  { padding-left:  40px !important; }
+.booknetic_right_addon input { padding-right: 40px !important; }
+
+
+
+
+.booknetic_table_gray
+{
+	width: 100%;
+
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+
+	background: #FFF;
+}
+.booknetic_table_gray thead th
+{
+	background-color: #adbfc7;
+	color: #FFF;
+	padding: 10px 0px 10px 30px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0;
+	height: 40px;
+}
+.booknetic_table_gray thead th:not(:last-child)
+{
+	border-right: 1px solid #9dafb7;
+}
+
+.booknetic_table_gray tbody tr td:not(:last-child)
+{
+	border-right: 1px solid #e3eaf3;
+}
+.booknetic_table_gray tbody tr:not(:last-child) td
+{
+	border-bottom: 1px solid #e3eaf3;
+}
+.booknetic_table_gray tbody td
+{
+	padding: 15px 0px 15px 30px;
+	font-size: 14px;
+	border: 0;
+	vertical-align: middle;
+}
+.booknetic_recurring_table > thead > tr > th:nth-child(1)
+{
+	width: 75px;
+}
+.booknetic_recurring_table > thead > tr > th:nth-child(2)
+{
+	width: 140px;
+}
+.booknetic_time_span
+{
+	display: block;
+	float: left;
+	padding-top: 5px;
+}
+.booknetic_data_has_error
+{
+	padding: 7px 11px;
+	float: left;
+}
+.booknetic_recurring_date_container{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.booknetic_recurring_info_edit_date{
+	display: none;
+}
+
+.booknetic_appointment .booknetic_hidden, .booknetic_appointment .booknetic_menu_hidden
+{
+	display: none;
+}
+
+
+.booknetic_recurring_div
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.booknetic_recurring_div_title
+{
+	color: #6C70DC;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.booknetic_recurring_div_c
+{
+	background-color: #FFF;
+	margin-bottom: 30px;
+}
+.booknetic_recurring_div_padding
+{
+	padding: 10px 20px;
+}
+
+.booknetic_day_of_week_box
+{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 9px;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+.booknetic_times_days_of_week_area .form-group
+{
+	margin-bottom: 5px !important;
+}
+
+.booknetic_copy_time_to_all
+{
+	padding-top: 13px;
+	color: #adbfc7;
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+
+.booknetic_times_days_of_week_area
+{
+	display: none;
+	padding: 20px;
+	padding-bottom: 5px;
+	border-top: 1px solid #e3eaf3;
+}
+
+.booknetic_times_days_of_week_area > div
+{
+	margin-bottom: 10px;
+}
+
+.booknetic_copy_time_to_all
+{
+	padding: 5px 20px;
+}
+
+.booknetic_date_edit_btn
+{
+	float: right;
+	margin-right: 25px;
+	width: 70px;
+}
+
+.booknetic_days_txt
+{
+	font-size: 12px;
+	font-weight: 600;
+	font-style: normal;
+	color: #ADBFC7;
+}
+
+
+.datepicker
+{
+	padding-bottom: 8px !important;
+}
+.datepicker td, .datepicker th
+{
+	width: 40px !important;
+	height: 40px !important;
+	color: #111;
+	font-size: 14px;
+	position: relative;
+	padding-top: 14px;
+}
+.datepicker .day:hover, .datepicker .active
+{
+	background: transparent !important;
+	color: #FFF !important;
+}
+.datepicker .day::before
+{
+	position: absolute;
+	content: '';
+	background: #ECEFF2;
+	left: 0;
+	top: 0;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	margin: 10px 5px 0px 5px;
+	z-index: -1;
+}
+.datepicker .day:hover:before, .datepicker .day.active:before
+{
+	background: #6C70DC;
+}
+.datepicker .dow
+{
+	border-bottom: 1px solid #e4ebf4 !important;
+	color: #C8C9CC;
+	font-size: 13px;
+}
+.datepicker .datepicker-switch , .datepicker .prev, .datepicker .next
+{
+	color: #111;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.booknetic_service_extra_card_title_quantity {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.booknetic_service_extra_card
+	{
+		width: 100%;
+		padding: 12px 0;
+	}
+	.booknetic_appointment
+	{
+		/*width: 360px;*/
+		min-width: 360px !important;
+		width: 100% !important;
+		height: auto !important;
+		flex-direction: column;
+	}
+
+	.booknetic_appointment_steps
+	{
+		width: 100%;
+	}
+	.booknetic_appointment_steps_body
+	{
+		padding: 19px 20px;
+	}
+	.rtl .booknetic_appointment_steps_body {
+		display: flex;
+	}
+	.booknetic_appointment_step_element
+	{
+		float: left;
+		margin-right: 10px;
+	}
+	.booknetic_step_title
+	{
+		display: none;
+	}
+	.booknetic_appointment_steps_footer
+	{
+		display: none !important;
+	}
+
+
+	.booknetic_appointment_container
+	{
+		width: 100%;
+	}
+
+	.booknetic_appointment_container_body
+	{
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+		padding-bottom: 75px;
+		min-height: 500px;
+	}
+	.booknetic_appointment_container_header
+	{
+		padding: 19px 20px;
+	}
+
+	.booknetic_card
+	{
+		float: none;
+		width: 100%;
+		height: 130px;
+		padding: 20px;
+		padding-top: 10px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.booknetic_card.booknetic_card_selected
+	{
+		padding: 18px;
+		padding-top: 8px;
+	}
+	.booknetic_card_image
+	{
+		margin: 0;
+	}
+	.booknetic_card_title
+	{
+		margin-left: 20px;
+		text-align: left;
+		margin-top: 0;
+		width: calc(100% - 100px);
+	}
+	.booknetic_card_title *
+	{
+		text-align: left;
+	}
+	.booknetic_card_description
+	{
+		text-align: left;
+	}
+
+
+	.booknetic_preloader_card1
+	{
+		float: none;
+		width: 100%;
+		display: flex;
+		height: 130px;
+		padding: 20px;
+		padding-top: 10px;
+		align-items: center;
+	}
+	.booknetic_preloader_card1_image
+	{
+		margin: 0;
+	}
+	.booknetic_preloader_card1_description
+	{
+		margin: 20px;
+	}
+	.booknetic_preloader_card1_description:before
+	{
+		margin-left: 0;
+	}
+
+
+
+	.booknetic_service_card_image
+	{
+		margin: 15px;
+	}
+	.booknetic_service_card.booknetic_service_card_selected .booknetic_service_card_image
+	{
+		margin: 13px 15px 13px 13px;
+	}
+	.booknetic_service_card_title
+	{
+		padding: 10px;
+		overflow: hidden;
+		min-width: 0;
+	}
+	.booknetic_service_card_title > span:first-child
+	{
+		font-size: 12px;
+	}
+
+	.booknetic_service_card {
+		flex-wrap: wrap;
+	}
+
+	.booknetic_service_card_description
+	{
+		order: 5;
+		padding: 0 16px 12px;
+		width: 100%;
+		max-width: unset;
+	}
+	.booknetic_service_card_price
+	{
+		padding-right: 15px;
+		font-size: 16px;
+		max-width: 130px;
+		width: calc(100% - 200px);
+		white-space: nowrap;
+		justify-content: flex-end;
+	}
+	.booknetic_service_card.booknetic_service_card_selected .booknetic_service_card_price
+	{
+		padding-right: 13px;
+	}
+	/*.booknetic_service_extra_card.booknetic_extra_on_off_mode{*/
+	/*	height: 100px;*/
+	/*}*/
+	.booknetic_service_extra_card_image
+	{
+		margin: 12px;
+	}
+	.booknetic_service_extra_card_title
+	{
+		margin-right: 0;
+	}
+	.booknetic_service_extra_card_title > span:first-child
+	{
+		font-size: 12px;
+	}
+	.booknetic_service_extra_card_price
+	{
+		font-size: 16px;
+		line-height: 18px;
+		padding-right: 12px;
+		margin-left: 12px;
+	}
+	.booknetic_service_extra_quantity_inc, .booknetic_service_extra_quantity_dec
+	{
+		width: 30px !important;
+		height: 30px !important;
+		font-size: 12px !important;
+	}
+	.booknetic_service_extra_quantity_input
+	{
+		width: 40px !important;
+		height: 30px !important;
+		font-size: 12px !important;
+	}
+
+
+	.booknetic_date_time_area
+	{
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 10px;
+	}
+	.booknetic_calendar_div
+	{
+		width: 100%;
+		max-width: 350px;
+	}
+	.booknetic_calendar_days
+	{
+		padding: 1px;
+	}
+	.booknetic_calendar_days > div
+	{
+		height: 36px;
+		font-size: 13px;
+		line-height: 36px;
+	}
+	.booknetic_calendar_rows > td:first-child
+	{
+		padding-left: 5px;
+	}
+	.booknetic_calendar_rows > td:last-child
+	{
+		padding-right: 5px;
+	}
+	.booknetic_calendar td
+	{
+		width: 14.28%;
+		margin: auto;
+		font-size: 12px;
+	}
+
+	.booknetic_time_div
+	{
+		width: 350px;
+	}
+	.booknetic_times
+	{
+		width: 100%;
+		max-width: 350px;
+	}
+
+	.booknetic_confirm_step_body
+	{
+		flex-direction: column;
+	}
+	.booknetic_confirm_step_body > div
+	{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.booknetic_payment_method
+	{
+		width: 120px;
+	}
+
+	.booknetic_confirm_sum_price
+	{
+		margin-top: 10px;
+	}
+
+	.booknetic_payment_method
+	{
+		margin-bottom: 7px;
+	}
+	.booknetic_confirm_deposit_body
+	{
+		height: auto;
+	}
+	.booknetic_appointment_finished_actions
+	{
+		flex-direction: column;
+	}
+	.booknetic_appointment_finished_actions > button,
+	.booknetic_appointment_finished_actions > a
+	{
+		margin-bottom: 7px;
+	}
+
+	.booknetic_appointment_finished_title
+	{
+		font-size: 21px;
+	}
+	.booknetic_appointment_finished_subtitle
+	{
+		font-size: 14px;
+	}
+
+	.booknetic_appointment_finished_code
+	{
+		font-size: 40px;
+		letter-spacing: 7px;
+		margin-bottom: 30px;
+	}
+
+
+	.booknetic_preloader_card2_description::before
+	{
+		width: 120px;
+	}
+	.booknetic_preloader_card2_description::after
+	{
+		width: 155px;
+	}
+
+	.booknetic_warning_message
+	{
+		position: absolute;
+		top: 20px;
+		width: calc(100% - 60px);
+	}
+
+}
+
+
+#booknetic_progress
+{
+	position: fixed;
+	z-index: 2147483647;
+	top: 0;
+	left: -6px;
+	width: 0;
+	height: 2px;
+	background: #6c70dc;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+
+	-moz-transition: width 500ms ease-out;
+	-o-transition: width 500ms ease-out;
+	-webkit-transition: width 500ms ease-out;
+	transition: width 500ms ease-out
+}
+
+#booknetic_progress dd,#booknetic_progress dt
+{
+	position: absolute;
+	top: 0;
+	height: 2px;
+
+	-moz-box-shadow: #6c70dc 1px 0 6px 1px;
+	-webkit-box-shadow: #6c70dc 1px 0 6px 1px;
+	box-shadow: #6c70dc 1px 0 6px 1px;
+
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%
+}
+#booknetic_progress dd
+{
+	opacity: 1;
+	width: 20px;
+	right: 0;
+	clip: rect(-6px,22px,14px,10px)
+}
+#booknetic_progress dt
+{
+	opacity: 1;
+	width: 180px;
+	right: -80px;
+	clip: rect(-6px,90px,14px,-6px)
+}
+@-moz-keyframes booknetic_progress_pulse {
+	30% {
+		opacity: 1
+	}
+	60% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+@-ms-keyframes booknetic_progress_pulse {
+	30% {
+		opacity: .6
+	}
+	60% {
+		opacity: 0
+	}
+	100% {
+		opacity: .6
+	}
+}
+@-o-keyframes booknetic_progress_pulse {
+	30% {
+		opacity: 1
+	}
+	60% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+@-webkit-keyframes booknetic_progress_pulse {
+	30% {
+		opacity: .6
+	}
+	60% {
+		opacity: 0
+	}
+	100% {
+		opacity: .6
+	}
+}
+@keyframes booknetic_progress_pulse {
+	30% {
+		opacity: 1
+	}
+	60% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+#booknetic_progress.booknetic_progress_waiting dd,#booknetic_progress.booknetic_progress_waiting dt
+{
+	-moz-animation: booknetic_progress_pulse 2s ease-out 0s infinite;
+	-o-animation: booknetic_progress_pulse 2s ease-out 0s infinite;
+	-webkit-animation: booknetic_progress_pulse 2s ease-out 0s infinite;
+	animation: booknetic_progress_pulse 2s ease-out 0s infinite
+}
+
+.booknetic_appointment .iti--allow-dropdown
+{
+	width: 100%;
+}
+
+.booknetic_powered_by
+{
+	position: absolute;
+	top: 13px;
+	right: -31px;
+	background: #4d545a;
+	color: #FFF;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+	font-size: 10px;
+	text-align: center;
+	padding: 2px 0;
+	line-height: 16px;
+	z-index: 999;
+
+	transform: rotate(45deg);
+	width: 126px;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+.booknetic_powered_by > span
+{
+	display: block;
+	font-size: 11px;
+	font-weight: 600;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.rtl .booknetic_powered_by
+{
+	padding: 2px 0 0 0;
+	left: -31px;
+	right: unset;
+	transform: rotate(-45deg);
+}
+
+
+#booknetic_bring_someone_section
+{
+	margin-top: 15px;
+}
+
+#booknetic_bring_someone_section select.form-control
+{
+	background: url(../icons/arrow-down-xs.svg) white no-repeat 95% !important;
+}
+
+.booknetic_number_of_brought_customers_quantity
+{
+	display: flex;
+	float: right;
+	justify-content: center;
+	align-items: center;
+	width: 120px;
+	margin-right: 8px;
+	height: 100%;
+	margin-top: -5px;
+}
+
+.booknetic_number_of_brought_customers_dec, .booknetic_number_of_brought_customers_inc
+{
+	cursor: pointer;
+	width: 34px !important;
+	height: 45px !important;
+	background-color: #F7F8FB;
+	border: 1px solid #E3EAF3;
+	border-radius: 2px;
+	text-align: center;
+	color: #ADBFC7;
+	line-height: 43px;
+
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.booknetic_number_of_brought_customers_quantity_input
+{
+	width: 52px !important;
+	height: 45px !important;
+	border: 1px solid #E3EAF3 !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	outline: none !important;
+	text-align: center !important;
+	font-size: 14px !important;
+	color: #292D32 !important;
+	background: #FFF !important;
+	margin: 0 !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+	box-shadow: unset!important;
+}
+
+.booknetic_number_of_brought_customers.d-none
+{
+	display: none !important;
+}
+
+.booknetic_staff_profession
+{
+	/*color: #6c70dc;*/
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.help-text
+{
+	color: #999;
+	font-size: 13px;
+}
+.bkntc_service_list{
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.bkntc_service_extras_list{
+	position: relative;
+	padding-bottom: 15px;
+}
+
+/* Cart new */
+.booknetic-cart {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top: -16px;
+}
+
+.booknetic-cart-col {
+	display: flex;
+	align-items: stretch;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-top: 16px;
+	background: #f5f7fa !important;
+}
+
+/* doit: some wordpress themes such as betheme will add it's own margin and content style to [.button-flat button] class thus added !important */
+.booknetic-cart-col button{
+	margin: unset;
+}
+
+.booknetic-cart-col button:after {
+	content: unset;
+}
+
+.booknetic-cart-item {
+	position: relative;
+	padding: 16px 12px;
+	border-radius: 8px;
+	width: 219px;
+	background: #ffffff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border: 2px solid transparent;
+}
+
+.booknetic-cart-item.active {
+	border-color: #6C70DC;
+}
+
+.booknetic-cart-item .booknetic-cart-item-header {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #2E3A59;
+	padding-right: 24px;
+	margin-bottom: 10px;
+}
+
+.booknetic-cart-item-header .booknetic-cart-item-btns {
+	position: absolute;
+	right: 12px;
+	top: 52px;
+	padding: 14px 10px;
+	box-shadow: 0 6px 12px rgba(108, 119, 131, 0.25);
+	border-radius: 8px;
+	background: #ffffff;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 250ms ease-in-out;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	z-index: 3;
+}
+
+.booknetic-cart-item-header .booknetic-cart-item-btns.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+.booknetic-cart-item-more {
+	position: absolute;
+	top: 16px;
+	right: 12px;
+	width: 20px;
+	height: 20px;
+	border: none;
+	background: none !important;
+	cursor: pointer;
+	z-index: 1;
+	outline: none !important;
+}
+
+.booknetic-cart-item-more:hover {
+	background: none;
+}
+
+.booknetic-cart-item-more img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.booknetic-cart-item-btns button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	cursor: pointer;
+}
+
+.booknetic-cart-item-btns button:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.booknetic-cart-item-btns button:hover {
+	background: none;
+}
+
+.booknetic-cart-item-btns button img {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+}
+
+.booknetic-cart-item-btns button span {
+	color: #2E3A59;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-left: 8px;
+}
+
+.booknetic-cart-item-body {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.booknetic-cart-item-body-row {
+	display: flex;
+	align-items: center;
+	position: relative;
+	text-align: left;
+}
+
+.booknetic-cart-item-body-row:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell {
+	display: inline-flex;
+	align-items: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #2E3A59;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell:first-child {
+	margin-right: 8px;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell.amount {
+	color: #4FBF65;
+	margin-right: 4px;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell.amount img {
+	color: #4FBF65;
+}
+
+.booknetic-cart-item-info {
+	position: relative;
+	width: 16px;
+	height: 16px;
+	border: none;
+	background: none !important; /* doit: some wordpress themes such as betheme will add it's own background style to [.button-flat button] class thus added !important */
+	cursor: pointer;
+}
+
+.booknetic-cart-item-info:hover {
+	background: none;
+}
+
+.booknetic-cart-item-info img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.booknetic-cart-item-info-details {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100%;
+	margin-bottom: 13px;
+	background: #DDF7E2;
+	padding: 8px 12px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 250ms ease-in-out;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	z-index: 2;
+}
+
+.booknetic-cart-item-info-details-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.booknetic-cart-item-info-details-row:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.booknetic-cart-item-info-details-row .booknetic-cart-item-info-details-cell {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 500;
+	color: #2E3A59;
+}
+
+.booknetic-cart-item-info-details-row .booknetic-cart-item-info-details-cell:not(:last-child) {
+	margin-right: 8px;
+}
+
+.booknetic-cart-item-info-details-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12px 8px 0 8px;
+	border-color: #DDF7E2 transparent transparent transparent;
+	bottom: 100%;
+	left: 50%;
+	margin-bottom: 4px;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 250ms ease-in-out;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	z-index: 2;
+}
+
+.booknetic-cart-item-info-details-cell.details-cell-success {
+	color: #4FBF65;
+}
+
+.booknetic-cart-item-info-details-cell.details-cell-warning {
+	color: #DB8B00;
+}
+
+.booknetic-cart-item-body-row.show .booknetic-cart-item-info-details, .booknetic-cart-item-body-row.show .booknetic-cart-item-info-details-arrow {
+	opacity: 1;
+	visibility: visible;
+}
+
+button.bkntc_again_booking {
+	margin-top: 20px;
+	font-weight: normal;
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	margin-left: auto !important; /* doit: some wordpress themes such as betheme will add it's own margin style to [.content_wrapper button] class thus added !important */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 12px;
+	background: #FFFFFF !important;
+	border: none !important;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 0 6px 12px rgba(108, 119, 131, 0.25);
+}
+
+button.bkntc_again_booking:hover {
+	background: #FFFFFF;
+}
+
+button.bkntc_again_booking img {
+	width: 24px;
+	height: 24px;
+	background: #DDF7E2;
+	object-fit: contain;
+	padding: 4px;
+	margin-right: 4px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.rtl button.bkntc_again_booking img {
+	margin-left: 4px;
+	margin-right: 0px;
+}
+
+
+button.bkntc_again_booking span {
+	font-size: 14px;
+	line-height: 16px;
+	color: #1D2123;
+}
+
+.booknetic-cart-item-error {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 12px;
+	background-color: #FFF2F2;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 250ms ease-in-out;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	z-index: 2;
+}
+
+.booknetic-cart-item-error.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header>div {
+	display: flex;
+	align-items: center;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header>div img {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+	margin-right: 4px;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header>div span {
+	color: #FF3D71;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-body {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+.booknetic-cart-item-error-close {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 16px;
+	top: 12px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.booknetic-cart-item-error-close:hover {
+	background: none;
+}
+
+
+.booknetic-cart-item-error-close img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.booknetic_appointment_container_header {
+	position: relative;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.rtl .booknetic_appointment_container_header .booknetic_appointment_container_header_cart{
+	position: relative;
+	right: 20px;
+	top: 0;
+	transform: unset;
+	-webkit-transform: unset;
+	-moz-transform: unset;
+	-ms-transform: none;
+	-o-transform: unset;
+
+}
+.booknetic-appointment-container-cart-btn-r-100
+{
+	right: 65px;
+}
+
+.rtl .booknetic-appointment-container-cart-btn-r-100 {
+	right: 0px;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart>div {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	background: #ECEFF2;
+	cursor: pointer;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart>div img {
+	width: 16px;
+	height: 16px;
+	margin-right: 6px;
+	margin-top: 6px;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart>div span {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 6px;
+	top: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #E21E4C;
+	color: #ffffff;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.booknetic-cart-holder {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.booknetic_payment_method {
+	margin-right: 16px;
+}
+
+.rtl .booknetic_payment_method {
+	margin-right: 0;
+	margin-left: 16px;
+}
+
+.rtl .iti--allow-dropdown .iti__flag-container, .rtl .iti--separate-dial-code .iti__flag-container {
+	right: 0 !important;
+}
+
+.rtl .iti--allow-dropdown .iti__flag-container .iti__arrow {
+	margin-left: 0 !important;
+	margin-right: 6px !important;
+}
+
+.rtl .iti--allow-dropdown .iti__flag-container {
+	display: flex;
+}
+
+.rtl .iti--allow-dropdown input {
+	padding-left: 6px !important;
+	padding-right: 52px !important;
+	margin-left: 0;
+}
+
+.rtl .iti__country.iti__standard, .rtl .iti__country.iti__preferred {
+	text-align: right !important;
+}
+
+.rtl .iti__flag-box {
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+.rtl .iti__country {
+	text-align: right;
+}
+
+.booknetic_need_copy>div{
+	height: 100%;
+}
+
+.booknetic_appointment_container div[data-step-id="cart"]
+{
+	flex-direction: column;
+	flex-grow: 1;
+}
+.booknetic_prices_box{
+	text-align: left;
+}
+
+.booknetic_view_more_service_notes_button, .booknetic_view_less_service_notes_button {
+	font-weight: bold;
+	transition: .2s;
+}
+
+.booknetic_view_more_service_notes_button:hover, .booknetic_view_less_service_notes_button:hover {
+	color: #292D32;
+}
+
+.booknetic_service_card_description_fulltext {
+	display: none;
+}
+
+.booknetic_view_less_service_notes_button {
+	display: none;
+}
+
+
+/* Scrollbar */
+
+.nice-scrollbar-primary::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+.nice-scrollbar-primary::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+}
+
+.nice-scrollbar-primary::-webkit-scrollbar-thumb {
+	background: rgb(228, 235, 244);
+	border-radius: 6px;
+}
+
+.nice-scrollbar-primary::-webkit-scrollbar-track {
+	border-radius: 6px;
+}
+
+.nice-scrollbar-primary::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+.nice-scrollbar-primary {
+	overflow: auto !important;
+	scrollbar-color: rgb(228, 235, 244);
+	scrollbar-width: thin;
+}
+
+.booknetic_customer_has_same_timeslot_portlet {
+	text-align:center;
+	background: #FFFF80;
+	margin-bottom: 5px;
+}
+
+.booknetic_service_duration_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+	margin-top: 4px;
+}
+
+.booknetic_service_duration_wrapper > span {
+	min-width: 35px;
+	color: rgba(69, 44, 12, 0.74);
+	background-color: rgba(255, 205, 79, 0.74);
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 8px;
+	border-radius: 12px;
+	flex-shrink: 0;
+}
+
+.iti__country.iti__preferred {
+	width: 344px!important;
+	max-width: 344px!important;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.iti__country.iti__standard {
+	width: 344px!important;
+	max-width: 344px!important;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.rtl #country-listbox {
+	top: 46px;
+}
+
+.booknetic-cart-item-body-row span:nth-child(2),
+.booknetic_confirm_date_time div:nth-child(2) span
+{
+	overflow-wrap: anywhere;
+}
+
+@media only screen and (max-width: 480px) {
+	.booknetic_appointment {
+		min-width: unset!important;
+	}
+	.booknetic_time_div {
+		width: 100%;
+		max-width: 350px;
+	}
+}

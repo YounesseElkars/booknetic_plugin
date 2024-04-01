@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services-users" transform="translate(-1626.000000, -672.000000)">
+            <g id="Group-12" transform="translate(1451.000000, 619.000000)">
+                <g id="Group-13" transform="translate(175.000000, 28.000000)">
+                    <g id="Group-7" transform="translate(0.000000, 25.000000)">
+                        <circle id="Oval" fill="#C7CFD9" cx="10" cy="10" r="10"></circle>
+                        <path d="M5,12.0845455 C5,11.9681818 5.04454545,11.8518182 5.13272727,11.7627273 L11.7627273,5.13272727 C11.8518182,5.04454545 11.9681818,5 12.0845455,5 L12.4609091,5 C12.5772727,5 12.6936364,5.04454545 12.7827273,5.13272727 L14.8672727,7.21727273 C14.9554545,7.30636364 15,7.42272727 15,7.53909091 L15,7.91545455 C15,8.03181818 14.9554545,8.14818182 14.8672727,8.23727273 L8.23727273,14.8672727 C8.14818182,14.9554545 8.03181818,15 7.91545455,15 L5.45454545,15 C5.20363636,15 5,14.7963636 5,14.5454545 L5,12.0845455 Z" id="Path" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

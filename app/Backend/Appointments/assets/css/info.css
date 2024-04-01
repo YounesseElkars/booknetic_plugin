@@ -1,0 +1,155 @@
+.fs-modal .table td, .fs-modal .table th
+{
+	border-top: 0;
+	padding: 0;
+}
+
+.fs-modal .table thead th
+{
+	border-bottom-width: 1px;
+
+	color: #4D545A;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.fs-modal td
+{
+	vertical-align: middle;
+}
+
+.fs-modal .customer-status-btn[data-status="approved"]
+{
+	color: #53d56c;
+}
+.fs-modal .customer-status-btn[data-status="pending"], .fs-modal .customer-status-btn[data-status="waiting_for_payment"]
+{
+	color: #fd9b78;
+}
+.fs-modal .customer-status-btn[data-status="canceled"]
+{
+	color: #fb3e6e;
+}
+
+.fs-modal .customer-fields-area
+{
+	-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+
+	padding: 20px;
+	padding-bottom: 0;
+
+	margin-bottom: 20px;
+}
+
+.fs-modal .customer-fields-area .user_visit_card
+{
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e3eaf3;
+}
+
+.fs-modal #tab_appointment_info
+{
+	border: 1px dashed #c0d6df;
+
+	padding: 30px;
+
+	-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+}
+
+.fs-modal label
+{
+	font-size: 16px;
+	color: #292D32;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.fs-modal .form-control-plaintext
+{
+	color: #828F9A;
+	font-size: 14px;
+	padding-top: 0;
+}
+
+.fs-modal #tab_appointment_info hr
+{
+	margin-top: 0;
+	color: #e3eaf3;
+}
+
+.fs-modal .per-customer-div
+{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.fs-modal .per-customer-div > .appointment_statis_span
+{
+	margin-left: 35px;
+	min-width: 24px;
+}
+
+.fs-modal .per-customer-div > .num_of_customers_span
+{
+	margin-left: 20px;
+	min-width: 38px;
+}
+
+.fs-modal .per-customer-div > .num_of_customers_span i
+{
+	color: #adbfc7;
+	padding: 4px;
+}
+
+.fs-modal .fs-modal-footer > button
+{
+	width: 100px;
+}
+
+.fs-modal .extra_row
+{
+	position: relative;
+	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+	padding: 20px;
+	padding-bottom: 0;
+
+	margin-bottom: 20px;
+
+	height: 115px;
+	padding-top: 30px;
+}
+
+.fs-modal .extra_row[data-active="0"]
+{
+	opacity: 0.5;
+}
+
+.fs-modal .extra_row label
+{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.fs-modal .extra_row .form-control-plaintext
+{
+	color: #828F9A;
+	padding-top: 5px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.fs-modal .extra_row{
+		height: auto;
+	}
+}

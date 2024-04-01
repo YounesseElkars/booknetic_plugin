@@ -1,0 +1,22 @@
+.company_image_img_div
+{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#company_image_btn, #company_image_img
+{
+	width: 100px;
+	height: 100px;
+}
+
+#company_image_input
+{
+	display: none;
+}

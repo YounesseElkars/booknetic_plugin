@@ -1,0 +1,236 @@
+.fs-modal .customer-status-panel i
+{
+	width: 20px;
+}
+
+.fs-modal .customer-status-panel a
+{
+	color: #292D32;
+	font-size: 14px;
+}
+
+.fs-modal .number_of_group_customers
+{
+	width: 100%;
+	text-align: left;
+}
+
+.fs-modal .number_of_group_customers > i
+{
+	padding: 3px;
+}
+
+.fs-modal .number_of_group_customers > img
+{
+	float: right;
+	padding-top: 9px;
+}
+
+.fs-modal .dropdown-menu.number_of_group_customers_panel {
+	max-height: 250px;
+	overflow-y: auto;
+}
+
+.fs-modal .customer-status-btn
+{
+	width: 60%;
+}
+
+.fs-modal .customer-status-btn > button
+{
+	width: calc(100% - 10px);
+	text-align: left;
+}
+
+.fs-modal .customer-status-btn i
+{
+	padding-right: 5px;
+}
+
+.fs-modal .customer-status-btn img
+{
+	float: right;
+	padding-top: 9px;
+}
+
+.fs-modal .add-customer-btn
+{
+	margin-top: 10px;
+	color: #828F9A;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.fs-modal .add-customer-btn > i
+{
+	padding-right: 5px;
+}
+
+.fs-modal .delete-customer-btn > img
+{
+	width: 18px;
+	margin-left: 7px;
+	cursor: pointer;
+}
+
+.fs-modal .delete-customer-btn
+{
+	width: 40px;
+	text-align: right;
+	padding-top: 14px;
+}
+
+.fs-modal .customer-tpl
+{
+	margin-bottom: 5px;
+}
+
+.fs-modal .day_of_week_box
+{
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 9px;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+
+.fs-modal .times_days_of_week_area
+{
+	display: none;
+	border-top: 1px solid #c0d6df;
+
+	padding: 15px;
+	padding-bottom: 10px;
+}
+
+.fs-modal .times_days_of_week_area .form-group
+{
+	margin-bottom: 5px !important;
+}
+
+.fs-modal .copy_time_to_all
+{
+	padding-top: 13px;
+	color: #adbfc7;
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+
+.fs-modal [data-service-type]
+{
+	display: none;
+}
+
+.fs-modal .date-edit-btn
+{
+	float: right;
+	margin-right: 25px;
+	width: 70px;
+}
+
+.fs-modal .date-has-error
+{
+	padding: 9px 11px;
+	float: left;
+}
+
+.fs-modal .dates-table td
+{
+	vertical-align: middle;
+}
+
+.fs-modal .time-span
+{
+	display: block;
+	float: left;
+	padding-top: 7px;
+}
+
+.fs-modal .time-span .select2
+{
+	width: 150px !important;
+	display: block;
+	float: right;
+	margin-right: 23px;
+}
+
+.days_txt
+{
+	font-size: 12px !important;
+	font-weight: 600;
+	font-style: normal;
+	color: #ADBFC7 !important;
+}
+
+.fs-modal .mb-0
+{
+	margin-bottom: 0 !important;
+}
+
+.fs-modal .customer-fields-area
+{
+	-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+
+	padding: 20px;
+	padding-bottom: 0;
+
+	margin-bottom: 20px;
+}
+
+.fs-modal .customer-fields-area .user_visit_card
+{
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e3eaf3;
+}
+
+.customer-tpl > *
+{
+	margin-left: -5px;
+	width: calc(100% + 5px);
+}
+
+.number_of_group_customers_span
+{
+	width: 40%;
+}
+
+.second-step table > thead > tr > th:nth-child(1)
+{
+	width: 40px;
+}
+.second-step table > thead > tr > th:nth-child(2)
+{
+	width: 100px;
+}
+.input_customer ~ .input-group-prepend > button
+{
+	border-left: 0 !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+@media only screen and (max-width: 768px)
+{
+
+	.fs-modal .customer-tpl > *
+	{
+		margin-bottom: 5px;
+	}
+
+}
+
+#custom_fields [data-required="true"]:after
+{
+    content: '*';
+    color: #fb3e6e;
+    padding-left: 5px;
+}

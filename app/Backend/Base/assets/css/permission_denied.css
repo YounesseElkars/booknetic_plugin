@@ -1,0 +1,52 @@
+.permission_denied_screen
+{
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.permission_denied_title
+{
+    color: #292D32;
+    font-size: 22px;
+    font-weight: 500;
+}
+.permission_denied_subtitle
+{
+    margin-top: 10px;
+    color: #828F9A;
+    font-size: 16px;
+    text-align: center;
+}
+.permission_denied_image
+{
+    margin: 35px;
+}
+.permission_denied_image > img
+{
+    height: 320px;
+}
+
+.permission_denied_footer .btn
+{
+    width: 150px;
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .permission_denied_screen
+    {
+        padding: 10px;
+    }
+    .permission_denied_image > img
+    {
+        height: 250px;
+    }
+    .permission_denied_subtitle
+    {
+        font-size: 14px;
+    }
+}

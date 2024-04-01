@@ -1,0 +1,17 @@
+#divmap {
+	width: 100%;
+	height: 250px;
+	margin-top: 12px;
+	border: 1px solid #E4EAF3;
+}
+
+#hideLocationBtn
+{
+	position: absolute;
+	left: 30px;
+}
+
+html[dir="rtl"] #hideLocationBtn{
+	left: unset;
+	right: 30px;
+}

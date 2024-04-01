@@ -1,0 +1,20 @@
+
+.bkntc_direct_booking_url{
+	padding: 30px;
+}
+
+.modal_actions{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.modal_actions button{
+	width: 150px;
+}
+
+.output_background{
+	background-color: #e3e3e3;
+	padding: 10px 7px;
+	margin-bottom: 1em;
+}

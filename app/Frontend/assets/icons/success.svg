@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>checked</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Notifications" transform="translate(-1548.000000, -48.000000)">
+            <g id="Group-44" transform="translate(1535.000000, 35.000000)">
+                <g id="checked" transform="translate(13.000000, 13.000000)">
+                    <circle id="Oval" fill="#53D56C" cx="12" cy="12" r="12"></circle>
+                    <g id="Group" transform="translate(5.015748, 6.905512)" fill="#FFFFFF">
+                        <path d="M7.8588752,8.71721343 C7.82163424,8.77189787 7.77910345,8.82363209 7.73128285,8.87157797 L6.83579591,9.76941079 C6.40349187,10.2028473 5.66239924,10.2028473 5.2300952,9.76941079 L1.30848,5.80656249 C0.876175959,5.37312596 0.876175959,4.6300919 1.30848,4.19665537 L2.20396693,3.29882255 C2.63627097,2.86538602 3.37736361,2.86538602 3.80966765,3.29882255 L6.02799042,5.54046947 L11.1588363,0.419565588 C11.5911403,-0.0138709442 12.332233,-0.0138709442 12.764537,0.419565588 L13.6600239,1.31739841 C14.092328,1.75083494 14.092328,2.49386899 13.6600239,2.92730553 L7.8588752,8.71721343 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

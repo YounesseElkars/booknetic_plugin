@@ -1,0 +1,8 @@
+input[type="checkbox"][disabled]
+{
+    background: #e3eaf3 !important;
+    cursor: not-allowed !important;
+}
+.fs_onoffswitch-checkbox:disabled + .fs_onoffswitch-label {
+    background-color: #e3eaf3;
+}

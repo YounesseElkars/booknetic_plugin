@@ -1,0 +1,19 @@
+{
+    "require": {
+        "google\/apiclient": "^2.12",
+        "guzzlehttp\/guzzle": "^7.4",
+        "gettext\/gettext": "^4.8",
+        "a5hleyrich\/wp-background-processing": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BookneticApp\\": "app/"
+        }
+    },
+
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    }
+}

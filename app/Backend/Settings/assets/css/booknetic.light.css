@@ -1,0 +1,1674 @@
+.booknetic_appointment *
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.booknetic_appointment
+{
+    min-width: 1000px;
+    width: 1000px;
+    height: 630px;
+    background-color: #F5F7FA;
+
+    -webkit-box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+    -moz-box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+    box-shadow: 0 5px 40px 5px rgba(112,119,125,0.25);
+
+    display: flex;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.booknetic_appointment_steps
+{
+    width: 230px;
+    height: 100%;
+    background-color: #292D32;
+    position: relative;
+
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.booknetic_appointment_steps_body
+{
+    padding: 30px 30px 0 30px;
+    overflow-y: auto;
+    max-height: 556px;
+    word-break: break-all;
+}
+.booknetic_appointment_steps_footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    border-top: 1px solid #3D4145;
+
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px 30px;
+    display: none;
+}
+.booknetic_appointment_steps_footer_txt1
+{
+    color: #545D66;
+}
+.booknetic_appointment_step_element
+{
+    color: #626C76;
+    font-size: 14px;
+    margin-bottom: 28px;
+    line-height: 21px;
+    cursor: pointer;
+    display: none;
+}
+.booknetic_selected_step
+{
+    color: #4FBF65;
+}
+
+.booknetic_active_step
+{
+    color: #FFFFFF;
+}
+
+.booknetic_badge
+{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #4D545A;
+    vertical-align: middle;
+    margin-right: 7px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+}
+
+.booknetic_selected_step > .booknetic_badge
+{
+    position: relative;
+    background: #4FBF65;
+}
+.booknetic_selected_step > .booknetic_badge:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4FBF65;
+    background-image: url('../../../Base/assets/icons/check-white.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.booknetic_active_step > .booknetic_badge
+{
+    background: #6C70DC;
+}
+
+
+
+.booknetic_appointment_container
+{
+    background: #f5f7fa;
+    width: calc(100% - 230px);
+    position: relative;
+    height: 100%;
+}
+.booknetic_appointment_container_header
+{
+    padding: 15px 30px;
+    height: 60px;
+    border-bottom: 1px solid #E4EBF3;
+    width: 100%;
+    color: #292D32;
+    font-size: 18px;
+    font-weight: 500;
+}
+.booknetic_appointment_container_body
+{
+    position: relative;
+    padding: 30px;
+    overflow: auto;
+    height: calc(100% - 135px);
+}
+.booknetic_appointment_container_footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background: #FFF;
+    padding: 20px 30px;
+    border-top: 1px solid #E4EBF4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booknetic_appointment_container_body>div
+{
+    height: 100%;
+}
+
+.booknetic_service_card
+{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_service_card.booknetic_service_card_selected
+{
+    border: 2px solid #53D56C;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.booknetic_service_card_image
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin: 15px 20px;
+}
+.booknetic_service_card.booknetic_service_card_selected .booknetic_service_card_image
+{
+    margin-top: 13px;
+    margin-left: 18px;
+}
+.booknetic_service_card_image > img
+{
+    height: 100%;
+    width: auto;
+}
+.booknetic_service_card_title
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+    height: 100%;
+}
+.booknetic_service_card_title > span:first-child
+{
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+}
+.booknetic_service_card_title > span:last-child
+{
+    color: #828F9A;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.booknetic_service_card_description
+{
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #828F9A;
+    font-size: 12px;
+    line-height: 19px;
+    max-width: 240px;
+    overflow: hidden;
+}
+.booknetic_service_card_price
+{
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: 300;
+    text-align: right;
+    color: #4FBF65;
+    font-size: 26px;
+}
+.booknetic_service_category
+{
+    color: #6C70DC;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.booknetic_service_category:first-child
+{
+    margin-top: 0;
+}
+
+
+
+
+
+
+.booknetic_btn_primary
+{
+    height: 36px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 15px;
+    outline: none !important;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    background-color: #6C70DC !important;
+    color: #FFF !important;
+    border: 0 !important;
+}
+.booknetic_btn_secondary
+{
+    height: 36px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 15px;
+    outline: none !important;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    background-color: #F7F8FB !important;
+    color: #8F9CA7 !important;
+    border: 1px solid #E3EAF3 !important;
+}
+
+.booknetic_appointment_step_element, .booknetic_appointment_steps_footer
+{
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.booknetic_card
+{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 220px;
+    height: 210px;
+    background: #FFF;
+    padding: 25px;
+    cursor: pointer;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.booknetic_card.booknetic_card_selected
+{
+    padding: 23px;
+    border: 2px solid #53D56C;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.booknetic_card:nth-child(3n)
+{
+    margin-right: 0;
+}
+.booknetic_card:not(.booknetic_card_selected):after
+{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+
+    background-image: url('../images/bottom_dashed.png');
+}
+.booknetic_card_image
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin: 0 auto;
+}
+.booknetic_card_image > img
+{
+    height: 100%;
+    width: auto;
+}
+.booknetic_card_title
+{
+    margin-top: 11px;
+    text-align: center;
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+    word-break: break-word;
+    height: 80px;
+    line-height: 18px;
+}
+.booknetic_card_title *
+{
+    text-align: center;
+}
+.booknetic_card_description
+{
+    color: #828F9A;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    max-height: 60px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+
+.booknetic_service_extra_card
+{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid #FFF;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_service_extra_card.booknetic_service_extra_card_selected
+{
+    border: 2px solid #53D56C;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.booknetic_service_extra_card_image
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin: 15px 20px;
+}
+
+.booknetic_service_extra_card_image > img
+{
+    height: 100%;
+    width: auto;
+}
+.booknetic_service_extra_card_title
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+    height: 100%;
+}
+.booknetic_service_extra_card_title > span:first-child
+{
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.booknetic_service_extra_card_title > span:last-child
+{
+    color: #828F9A;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.booknetic_service_extra_card_price
+{
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: 300;
+    text-align: right;
+    color: #828F9A;
+    font-size: 26px;
+}
+.booknetic_service_extra_card_selected .booknetic_service_extra_card_price
+{
+    color: #4FBF65;
+}
+.booknetic_service_extra_title
+{
+    color: #6C70DC;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.booknetic_service_extra_quantity
+{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100%;
+}
+.booknetic_service_extra_quantity_inc, .booknetic_service_extra_quantity_dec
+{
+    width: 34px;
+    height: 34px;
+    background-color: #F7F8FB;
+    border: 1px solid #E3EAF3;
+    border-radius: 2px;
+    text-align: center;
+    color: #ADBFC7;
+    line-height: 36px;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.booknetic_service_extra_quantity_input
+{
+    width: 52px;
+    height: 34px;
+    border: 1px solid #E3EAF3 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    outline: none !important;
+    text-align: center;
+    font-size: 14px;
+    color: #292D32;
+}
+
+
+
+.booknetic_calendar_head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booknetic_calendar_head > div
+{
+    padding: 0 10px 10px 10px;
+}
+.booknetic_calendar_head > .booknetic_month_name
+{
+    color: #000000;
+    font-size: 14px;
+}
+.booknetic_next_month, .booknetic_prev_month
+{
+    font-size: 16px;
+    color: #111;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.booknetic_date_time_area
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booknetic_date_time_area.booknetic_date_based_reservation
+{
+    justify-content: center;
+}
+
+.booknetic_calendar_div
+{
+    width: 370px;
+    height: auto;
+}
+
+.booknetic_date_time_area.booknetic_date_based_reservation .booknetic_time_div
+{
+    display: none;
+}
+
+#booknetic_calendar_area
+{
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_calendar
+{
+    margin: 0;
+}
+
+.booknetic_week_names > .booknetic_td
+{
+    color: #C8C9CC;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 20px 5px 9px !important;
+    border-bottom: 1px solid #E4EBF4;
+}
+.booknetic_calendar > .booknetic_calendar_rows > .booknetic_td
+{
+    width: calc((100% - 20px) / 7);
+}
+.booknetic_calendar_rows > .booknetic_td:first-child
+{
+    padding-left: 15px !important;
+    width: calc((100% - 20px) / 7 + 10px);
+}
+.booknetic_calendar_rows > .booknetic_td:last-child
+{
+    padding-right: 15px !important;
+    width: calc((100% - 20px) / 7 + 10px);
+}
+.booknetic_calendar > div:nth-child(2) > .booknetic_td
+{
+    padding-top: 10px !important;
+}
+.booknetic_calendar > .booknetic_calendar_rows:last-child > .booknetic_td
+{
+    padding-bottom: 10px !important;
+}
+.booknetic_calendar > .booknetic_calendar_rows
+{
+    display: flex;
+}
+.booknetic_calendar_days
+{
+    padding: 5px !important;
+}
+.booknetic_calendar_days > div
+{
+    position: relative;
+    cursor: pointer;
+    background-color: #ECEFF2;
+    width: 100%;
+    height: 40px;
+    color: #111111;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.booknetic_calendar_days.booknetic_calendar_selected_day > div
+{
+    background-color: #6C70DC;
+    color: #FFF;
+}
+.booknetic_calendar_days.booknetic_calendar_empty_day > div
+{
+    cursor: default;
+    color: rgba(17,17,17,0.3);
+}
+.booknetic_calendar_days > div > span
+{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+.booknetic_calendar_days > div > span > i
+{
+    width: 10%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+.booknetic_calendar_days > div > span > i[a]
+{
+    background: #4fbf65;
+}
+.booknetic_calendar_days > div > span > i[b]
+{
+    background: #ECEFF2;
+}
+
+
+
+
+.booknetic_times
+{
+    width: 305px;
+    height: 312px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.booknetic_times_head
+{
+    padding: 2px 10px 12px 10px;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+}
+.booknetic_times_title
+{
+    color: #6C70DC;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0 13px;
+    border-bottom: 1px solid #E3EAF3;
+}
+.booknetic_times_list
+{
+    overflow-y: scroll;
+    height: calc(100% - 50px);
+    padding: 5px 10px;
+}
+.booknetic_times_list > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ECEFF2;
+    position: relative;
+    width: calc(33% - 10px);
+    height: 55px;
+    color: #111111;
+    font-size: 14px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 1.8;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.booknetic_times_list *
+{
+    text-align: center;
+}
+.booknetic_times_list > div.booknetic_selected_time
+{
+    background: #4fbf65;
+    color: #FFF;
+}
+.booknetic_time_group_num
+{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    min-width: 18px;
+    height: 18px;
+    background: #4FBF65;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 0 5px;
+
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+}
+.booknetic_times_list > div.booknetic_selected_time .booknetic_time_group_num
+{
+    background: #FFF;
+    color: #4FBF65;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.35);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.35);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.35);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.booknetic_portlet
+{
+    padding: 13px 20px;
+    background-color: #FFFFFF;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+
+.booknetic_confirm_details
+{
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+}
+.booknetic_confirm_details:before
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    border: 1px dashed #DBEBF2;
+}
+.booknetic_confirm_details:after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+.booknetic_confirm_details > .booknetic_confirm_details_title
+{
+    float: left;
+    background: #FFF;
+    padding-right: 15px;
+    position: relative;
+    color: #55585c;
+    font-weight: 500;
+}
+.booknetic_confirm_details > .booknetic_confirm_details_price
+{
+    float: right;
+    background: #FFF;
+    padding-left: 15px;
+    position: relative;
+    color: #5ac36e;
+    font-weight: 500;
+}
+
+[data-price-id="discount"] > .booknetic_confirm_details_title, [data-price-id="discount"] > .booknetic_confirm_details_price
+{
+    color: #E09B22;
+}
+
+.booknetic_confirm_step_body
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.booknetic_confirm_sum_body
+{
+    width: 370px;
+    height: 309px;
+}
+.booknetic_confirm_sum_body_full_width
+{
+    width: 100%;
+}
+
+.booknetic_confirm_deposit_body
+{
+    width: 305px;
+    height: 309px;
+}
+
+.booknetic_confirm_step_body .booknetic_portlet
+{
+    position: relative;
+    height: 100%;
+}
+
+.booknetic_deposit_price
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F8D7DF;
+    color: #EE4B75;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 20px;
+    height: 46px;
+}
+.booknetic_deposit_price > div:last-child
+{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.booknetic_confirm_sum_price
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DDF7E2;
+    color: #4FBF65;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 46px;
+}
+.booknetic_confirm_sum_price > div:last-child
+{
+    font-size: 18px;
+}
+
+.booknetic_select_method_txt
+{
+    font-size: 14px;
+    color: #292D32;
+    margin-bottom: 15px;
+}
+
+.booknetic_add_coupon
+{
+    position: absolute;
+    width: calc(100% - 40px);
+    bottom: 60px;
+    left: 0;
+    margin: 0 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #E3EAF3;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.booknetic_add_coupon input
+{
+    width: calc(100% - 100px);
+    border: 0 !important;
+    color: #828F9A;
+    font-size: 14px;
+    padding: 0 12px !important;
+    outline: 0 !important;
+    height: 30px;
+}
+.booknetic_add_coupon.booknetic_coupon_ok input
+{
+    padding-left: 22px !important;
+}
+.booknetic_add_coupon button
+{
+    height: 30px;
+    width: 45px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.booknetic_add_coupon.booknetic_coupon_ok:after
+{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 65	px;
+    background: url('../icons/success.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.booknetic_payment_methods
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booknetic_payment_method
+{
+    width: 127px;
+    height: 80px;
+    cursor: pointer;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+}
+.booknetic_payment_method > img
+{
+    margin-bottom: 5px;
+    max-height: 40px;
+}
+.booknetic_payment_method.booknetic_payment_method_selected
+{
+    border: 2px solid #53D56C;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.booknetic_deposit_radios
+{
+    display: flex;
+    color: #828F9A;
+    margin-top: 15px;
+}
+.booknetic_deposit_radios > div:not(:last-child)
+{
+    margin-right: 15px;
+}
+
+.booknetic_hr
+{
+    border-top: 1px solid #E3EAF3;
+    height: 1px;
+}
+
+
+.booknetic_btn_success
+{
+    height: 36px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 15px;
+    outline: none !important;
+    cursor: pointer;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    background-color: #4FBF65 !important;
+    color: #FFF !important;
+    border: 0 !important;
+}
+
+.booknetic_text_primary
+{
+    color: #6C70DC !important;
+}
+.booknetic_text_secondary
+{
+    color: #8F9CA7 !important;
+}
+
+.booknetic_appointment_container_body > [data-step-id="finish"]
+{
+    margin-top: 30px;
+}
+.booknetic_appointment_finished
+{
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_appointment_finished_icon
+{
+    text-align: center;
+}
+.booknetic_appointment_finished_title
+{
+    color: #4FBF65;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.booknetic_appointment_finished_subtitle
+{
+    color: #828F9A;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.booknetic_appointment_finished_code
+{
+    font-size: 44px;
+    color: #292D32;
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+.booknetic_appointment_finished_actions > button
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 46px;
+    min-width: 130px;
+}
+.booknetic_appointment_finished_actions > button > img
+{
+    padding-right: 10px;
+    margin-top: -2px;
+}
+.booknetic_appointment_finished_actions
+{
+    text-align: center;
+}
+
+
+.booknetic_appointment_finished_with_error
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+}
+.booknetic_appointment_finished_with_error > div
+{
+    max-width: 350px;
+    text-align: center;
+    color: #828F9A;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.rtl .booknetic_appointment_steps_body, .rtl .booknetic_appointment_container_header, .rtl .booknetic_service_category:first-child
+{
+   text-align: right;
+}
+
+.rtl .booknetic_card
+{
+    float: right;
+    margin-right: unset;
+    margin-left: 15px;
+}
+
+
+
+/* Cart new */
+.booknetic-cart {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -16px;
+}
+
+.booknetic-cart-col {
+    display: flex;
+    align-items: stretch;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 16px;
+    background: #f5f7fa !important;
+}
+
+.booknetic-cart-item {
+    position: relative;
+    padding: 16px 12px;
+    border-radius: 8px;
+    width: 219px;
+    background: #ffffff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+.booknetic-cart-item.active {
+    border-color: #6C70DC;
+}
+
+.booknetic-cart-item .booknetic-cart-item-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2E3A59;
+    padding-right: 24px;
+    margin-bottom: 10px;
+}
+
+.booknetic-cart-item-header .booknetic-cart-item-btns {
+    position: absolute;
+    right: 12px;
+    top: 52px;
+    padding: 14px 10px;
+    box-shadow: 0 6px 12px rgba(108, 119, 131, 0.25);
+    border-radius: 8px;
+    background: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    z-index: 1;
+}
+
+.booknetic-cart-item-header .booknetic-cart-item-btns.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.booknetic-cart-item-more {
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: none !important;
+    cursor: pointer;
+    z-index: 1;
+    outline: none !important;
+}
+
+.booknetic-cart-item-more:hover {
+    background: none;
+}
+
+.booknetic-cart-item-more img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.booknetic-cart-item-btns button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.booknetic-cart-item-btns button:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.booknetic-cart-item-btns button:hover {
+    background: none;
+}
+
+.booknetic-cart-item-btns button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.booknetic-cart-item-btns button span {
+    color: #2E3A59;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.booknetic-cart-item-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.booknetic-cart-item-body-row {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.booknetic-cart-item-body-row:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2E3A59;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell:first-child {
+    margin-right: 8px;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell.amount {
+    color: #4FBF65;
+    margin-right: 4px;
+}
+
+.booknetic-cart-item-body-row .booknetic-cart-item-body-cell.amount img {
+    color: #4FBF65;
+}
+
+.booknetic-cart-item-info {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.booknetic-cart-item-info:hover {
+    background: none;
+}
+
+.booknetic-cart-item-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.booknetic-cart-item-info-details {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    margin-bottom: 13px;
+    background: #DDF7E2;
+    padding: 8px 12px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    z-index: 2;
+}
+
+.booknetic-cart-item-info-details-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.booknetic-cart-item-info-details-row:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.booknetic-cart-item-info-details-row .booknetic-cart-item-info-details-cell {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #2E3A59;
+}
+
+.booknetic-cart-item-info-details-row .booknetic-cart-item-info-details-cell:not(:last-child) {
+    margin-right: 8px;
+}
+
+.booknetic-cart-item-info-details-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 8px 0 8px;
+    border-color: #DDF7E2 transparent transparent transparent;
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 4px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    z-index: 2;
+}
+
+.booknetic-cart-item-info-details-cell.details-cell-success {
+    color: #4FBF65;
+}
+
+.booknetic-cart-item-info-details-cell.details-cell-warning {
+    color: #DB8B00;
+}
+
+.booknetic-cart-item-body-row.show .booknetic-cart-item-info-details, .booknetic-cart-item-body-row.show .booknetic-cart-item-info-details-arrow {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bkntc_again_booking {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    background: #FFFFFF !important;
+    border: none !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(108, 119, 131, 0.25);
+}
+
+.bkntc_again_booking:hover {
+    background: #FFFFFF;
+}
+
+.bkntc_again_booking img {
+    width: 24px;
+    height: 24px;
+    background: #DDF7E2;
+    object-fit: contain;
+    padding: 4px;
+    margin-right: 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.bkntc_again_booking span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D2123;
+}
+
+.booknetic-cart-item-error {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    background-color: #FFF2F2;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    z-index: 2;
+}
+
+.booknetic-cart-item-error.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header>div {
+    display: flex;
+    align-items: center;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header>div img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 4px;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-header>div span {
+    color: #FF3D71;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.booknetic-cart-item-error .booknetic-cart-item-error-body {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+.booknetic-cart-item-error-close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 16px;
+    top: 12px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.booknetic-cart-item-error-close:hover {
+    background: none;
+}
+
+
+.booknetic-cart-item-error-close img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.booknetic_appointment_container_header {
+    position: relative;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.booknetic-appointment-container-cart-btn-r-100
+{
+    right: 65px;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart>div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #ECEFF2;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart>div img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+.booknetic_appointment_container_header .booknetic_appointment_container_header_cart>div span {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 6px;
+    top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E21E4C;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.booknetic-cart-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

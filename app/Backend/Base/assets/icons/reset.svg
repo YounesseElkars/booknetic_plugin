@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Settings-(Payments)" transform="translate(-1615.000000, -134.000000)" fill="#ADBFC7">
+            <g id="Group" transform="translate(1595.000000, 120.000000)">
+                <path d="M21.0873786,25.7284211 L23.2815534,24.4589474 C22.815534,23.6821053 22.5631068,22.7726316 22.5631068,21.8063158 C22.5631068,18.8694737 25.0097087,16.5010526 28,16.5010526 C30.9902913,16.5010526 33.4368932,18.8884211 33.4368932,21.8063158 C33.4368932,24.7242105 30.9902913,27.1115789 28,27.1115789 L28,24.7052632 L22.038835,28.3621053 L28,32 L28,29.5936842 C32.407767,29.5936842 36,26.0884211 36,21.7873684 C36,17.5052632 32.407767,14 28,14 C23.592233,14 20,17.5052632 20,21.8063158 C20,23.2273684 20.407767,24.5726316 21.0873786,25.7284211 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

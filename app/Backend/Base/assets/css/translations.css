@@ -1,0 +1,11 @@
+.fs-multilang-modal-inner {
+    height: 100%;
+    overflow: auto;
+}
+
+#bkntc_translating_text {
+    margin-left: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: break-spaces;
+}

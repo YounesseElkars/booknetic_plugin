@@ -1,0 +1,130 @@
+.day_off_checkbox
+{
+	margin-top: 29px;
+	border: 1px solid #e3eaf3;
+	padding: 13px 5px 2px;
+	width: 100%;
+	height: 46px;
+	text-align: center;
+	line-height: 26px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #8b97a1;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.timesheet-label
+{
+	color: #585CBA;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.breaks-label
+{
+	color: #FD9B78;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.delete-break-btn
+{
+	width: 18px;
+	height: 18px;
+	margin-top: 42px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.add-break-btn
+{
+	color: #828F9A;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.add-break-btn > i
+{
+	color: #c7cfd9;
+	font-size: 17px;
+	padding-right: 8px;
+}
+
+.timesheet_tabs
+{
+	display: flex;
+}
+
+.timesheet_tabs > div
+{
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 600;
+	color: #828F9A;
+	line-height: 37px;
+	border: 1px solid #adbfc7;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.timesheet_tabs > .selected-tab
+{
+	position: relative;
+	background: #adbfc7;
+	color: #FFF;
+}
+
+.timesheet_tabs > .selected-tab:after
+{
+	content: ' ';
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 10px;
+	height: 10px;
+	border: 5px solid transparent;
+	border-bottom-color: #FFF;
+}
+
+.copy_time_to_all
+{
+	color: #adbfc7;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.days_divider
+{
+	position: absolute;
+	left: 38px;
+	width: calc(100% - 73px);
+	border-bottom: 1px solid #e3eaf3;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+.input-group > :first-child .select2-selection
+{
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.input-group > :last-child .select2-selection
+{
+	border-left: 0;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}

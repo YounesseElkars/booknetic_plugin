@@ -1,0 +1,33 @@
+.template-card-wrapper {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.template-card-wrapper .card_col {
+    padding: 0 10px 30px 10px;
+}
+
+.template-card {
+    /*min-width: 300px;*/
+}
+
+.template-card img {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.template-card h5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.template-card p {
+    margin: 0 0 16px;
+    font-size: 0.75rem;
+}
+
+.template-card  button{
+    margin-top: 20px;
+}

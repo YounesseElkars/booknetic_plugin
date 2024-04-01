@@ -1,0 +1,194 @@
+/* Bootstrap */
+.booknetic_appointment .form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.booknetic_appointment .form-row > .col,
+.booknetic_appointment .form-row > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.booknetic_appointment .form-group {
+    margin-bottom: 1rem;
+}
+
+.booknetic_appointment .col-md-1, .booknetic_appointment .col-md-2, .booknetic_appointment .col-md-3, .booknetic_appointment .col-md-4, .booknetic_appointment .col-md-5, .booknetic_appointment .col-md-6, .booknetic_appointment .col-md-7, .booknetic_appointment .col-md-8, .booknetic_appointment .col-md-9, .booknetic_appointment .col-md-10, .booknetic_appointment .col-md-11, .booknetic_appointment .col-md-12, .booknetic_appointment .col-md, .booknetic_appointment .col-md-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.booknetic_appointment .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .booknetic_appointment .form-control {
+        transition: none;
+    }
+}
+
+.booknetic_appointment .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.booknetic_appointment .form-control:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #495057;
+}
+
+.booknetic_appointment .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.booknetic_appointment .form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.booknetic_appointment .form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.booknetic_appointment .form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.booknetic_appointment .form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.booknetic_appointment .form-control::placeholder {
+    color: #B4BDC4;
+    opacity: 1;
+}
+
+.booknetic_appointment .form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.booknetic_appointment select.form-control:focus::-ms-value {
+    color: #495057;
+    background-color: #fff;
+}
+
+.booknetic_appointment .form-control-plaintext {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: transparent;
+    border: solid transparent;
+    border-width: 1px 0;
+}
+.booknetic_appointment select.form-control[size], .booknetic_appointment select.form-control[multiple] {
+    height: auto;
+}
+
+.booknetic_appointment textarea.form-control {
+    height: auto;
+}
+
+.booknetic_appointment label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+@media (min-width: 768px) {
+    .booknetic_appointment .col-md-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .booknetic_appointment .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .booknetic_appointment .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .booknetic_appointment .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .booknetic_appointment .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .booknetic_appointment .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .booknetic_appointment .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .booknetic_appointment .col-md-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .booknetic_appointment .col-md-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .booknetic_appointment .col-md-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .booknetic_appointment .col-md-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .booknetic_appointment .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+

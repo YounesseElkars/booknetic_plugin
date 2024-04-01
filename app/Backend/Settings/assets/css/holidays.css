@@ -1,0 +1,13 @@
+.year-neighbor2, .year-neighbor
+{
+	display: none;
+}
+.calendar .months-container
+{
+	margin: 0;
+}
+.calendar .month-container
+{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}

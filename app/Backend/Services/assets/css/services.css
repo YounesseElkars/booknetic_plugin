@@ -1,0 +1,682 @@
+/*Now the CSS*/
+* {margin: 0; padding: 0;}
+
+#categories_tree
+{
+	opacity: 0;
+	transition: transform .2s;
+}
+
+.rtl #categories_tree
+{
+	direction: rtl;
+}
+
+#categories_tree ul {
+	padding-top: 20px;
+	position: relative;
+
+	display: flex;
+
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+#categories_tree ul[data-type="horizontal"]
+{
+	flex-direction: column;
+}
+
+#categories_tree li
+{
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 60px 0 60px;
+
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+#categories_tree ul[data-type="vertical"] > li::before, #categories_tree ul[data-type="vertical"] > li::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 1px solid #C3D8E0;
+	width: 50%; height: 20px;
+}
+
+#categories_tree ul[data-type="vertical"] > li::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #C3D8E0;
+}
+
+
+.rtl #categories_tree ul[data-type="vertical"] {
+	direction: ltr;
+}
+
+.rtl #categories_tree ul[data-type="vertical"] .node_name {
+	direction: rtl;
+}
+.rtl #categories_tree ul[data-type="vertical"] .node_name::before {
+	left:20px;
+	right: auto;
+}
+
+.rtl #categories_tree li[data-type="service"] > .node_details > .node_name:before {
+	background-image: linear-gradient(to left, transparent , #FFF);
+}
+
+/*We need to remove left-right connectors from elements without any siblings*/
+#categories_tree ul[data-type="vertical"] > li:only-child::after, #categories_tree ul[data-type="vertical"] > li:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+#categories_tree ul[data-type="vertical"] > li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and
+right connector from last child*/
+#categories_tree ul[data-type="vertical"] > li:first-child::before, #categories_tree ul[data-type="vertical"] > li:last-child::after{
+	border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+#categories_tree ul[data-type="vertical"] > li:last-child::before{
+	border-right: 1px solid #C3D8E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*We will use ::before and ::after to draw the connectors*/
+#categories_tree ul[data-type="horizontal"]::after{
+	content: '';
+	position: absolute;
+	top: 20px;
+	left: 0;
+	border-top: 1px solid #C3D8E0;
+	border-left: 1px solid #C3D8E0;
+	width: 50%;
+	height: 45px;
+	z-index: 0;
+}
+
+#categories_tree ul[data-type="horizontal"] > li::after
+{
+	content: '';
+	position: absolute;
+	top: 50px;
+	left: 0;
+	border-bottom: 1px solid #C3D8E0;
+	width: 60px;
+	height: 20px;
+}
+
+#categories_tree ul[data-type="horizontal"] > li::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-left: 1px solid #C3D8E0;
+	width: 50%;
+	height: 100%;
+}
+
+#categories_tree ul[data-type="horizontal"] > li:last-child::before
+{
+	height: calc(50% + 10px);
+}
+
+/*Time to add downward connectors from parents*/
+#categories_tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #C3D8E0;
+	width: 0; height: 20px;
+}
+
+#categories_tree li > .node_details
+{
+	height: 40px;
+	display: inline-block;
+	padding: 9px 20px;
+	background-color: #ADBFC7;
+	color: #FFF;
+
+	border: 0;
+
+	font-size: 14px;
+	font-weight: 500;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+
+	position: relative;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#categories_tree .staff_not_selected
+{
+	position: absolute;
+	font-size: 11px !important;
+	font-weight: 500 !important;
+	color: #C7CFD9 !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	height: 10px;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+#categories_tree li[data-type="root"] > .node_details
+{
+	height: 46px;
+	padding-top: 10px;
+	background-color: #FFF;
+	color: #292D32;
+	font-size: 16px;
+}
+
+#categories_tree li[data-type="service"] > .node_details
+{
+	height: 100px;
+	width: 150px;
+	padding-top: 10px;
+	background-color: #FFF;
+	color: #292D32;
+	font-size: 16px;
+}
+
+#categories_tree > ul > li > ul > li > .node_details
+{
+	background-color: #FD9B78;
+}
+
+#categories_tree > ul > li > ul > li > ul > li > .node_details
+{
+	background-color: #26C0D6;
+}
+
+#categories_tree > ul > li > ul > li > ul > li > ul > li > .node_details
+{
+	background-color: #ADBFC7;
+}
+
+#categories_tree .node_hidden
+{
+	opacity: 0.5;
+}
+
+#categories_tree .add_new_node
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: -30px;
+	background: url("../icons/add.svg");
+	background-size: 20px 20px;
+
+	width: 20px;
+	height: 20px;
+
+	margin: auto;
+
+	cursor: pointer;
+
+	z-index: 9;
+}
+
+#categories_tree .node_translations {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: -80px;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	margin: auto;
+	background-color: #C7CFD9;
+	cursor: pointer;
+	border-radius: 50%;
+	z-index: 9;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	color: #fff;
+}
+
+#categories_tree .edit_node
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: -55px;
+	background: url('../icons/edit.svg');
+	background-size: 20px 20px;
+
+	width: 20px;
+	height: 20px;
+
+	margin: auto;
+
+	cursor: pointer;
+
+	z-index: 9;
+}
+
+#categories_tree li[data-type="service"] > .node_details > .edit_node
+{
+	top: 25px;
+	right: -30px;
+}
+
+#categories_tree li[data-type="service"] > .node_details > .remove_node
+{
+	top: -25px;
+	right: -30px;
+}
+
+#categories_tree li[data-type="service"] > .node_details > .node_translations
+{
+	top: 75px;
+	right: -30px;
+}
+
+
+#categories_tree .remove_node
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: -105px;
+	background: url("../icons/remove.svg");
+	background-size: 20px 20px;
+
+	width: 20px;
+	height: 20px;
+
+	margin: auto;
+
+	cursor: pointer;
+
+	z-index: 9;
+}
+
+#categories_tree .remove_node:not(:nth-child(5)) {
+    right: -80px;
+}
+
+#categories_tree .cancel_node
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: -30px;
+	background: url("../icons/cancel.svg");
+	background-size: 20px 20px;
+
+	width: 20px;
+	height: 20px;
+
+	margin: auto;
+
+	cursor: pointer;
+
+	z-index: 9;
+}
+
+#categories_tree .save_node
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: -55px;
+	background: url("../icons/save.svg");
+	background-size: 20px 20px;
+
+	width: 20px;
+	height: 20px;
+
+
+	margin: auto;
+
+	cursor: pointer;
+
+	z-index: 9;
+}
+
+#categories_tree .node_name > input
+{
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	height: calc(100% + 4px);
+	width: calc(100% + 4px);
+	border: 0;
+	text-align: center;
+	border: 1px solid #e3eaf3;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#categories_tree .node_name
+{
+	display: block;
+	max-width: 115px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#categories_tree .node_name:before
+{
+	content: ' ';
+	position: absolute;
+	height: 24px;
+	width: calc(100% - 130px);
+	top: 11px;
+	right: 20px;
+
+	background-image: linear-gradient(to right, transparent , #FFF);
+}
+
+#categories_tree > ul > li > ul > li > .node_details > .node_name:before
+{
+	background-image: linear-gradient(to right, transparent , #FD9B78);
+}
+
+#categories_tree > ul > li > ul > li > ul > li > .node_details > .node_name:before
+{
+	background-image: linear-gradient(to right, transparent , #26C0D6);
+}
+
+#categories_tree > ul > li > ul > li > ul > li > ul > li .node_details > .node_name:before
+{
+	background-image: linear-gradient(to right, transparent , #ADBFC7);
+}
+
+#categories_tree li[data-type="service"] > .node_details > .node_name:before
+{
+	background-image: linear-gradient(to right, transparent , #FFF);
+}
+
+
+
+#categories_tree .node_details > .services_list i
+{
+	font-size: 10px;
+	color: #92baff;
+	cursor: pointer;
+}
+
+#categories_tree .staff_list
+{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	padding-left: 12px;
+}
+
+#categories_tree .staff_list > img
+{
+	width: 38px;
+	height: 38px;
+	margin-left: -12px;
+	border: 5px solid #FFF;
+
+}
+
+#categories_tree .staff_list > span
+{
+	color: #292D32;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 40px;
+	padding-left: 5px;
+}
+
+#services_map
+{
+	direction:ltr;
+	position: relative;
+	width: auto;
+	height: calc(100% - 117px);
+	overflow: hidden;
+	cursor: move;
+}
+
+.drag-top-arrow
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 120px;
+	height: 40px;
+	background: #C7CFD9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.drag-bottom-arrow
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 120px;
+	height: 40px;
+	background: #C7CFD9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.drag-left-arrow
+{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	margin: auto;
+	height: 120px;
+	width: 40px;
+	background: #C7CFD9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.drag-right-arrow
+{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	margin: auto;
+	height: 120px;
+	width: 40px;
+	background: #C7CFD9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.dropdown-item
+{
+	padding-left: 15px;
+}
+
+.selected-option > i
+{
+	font-size: 12px;
+	padding-left: 5px;
+	color: #6c70dc;
+}
+
+.selected-option
+{
+	color: #6c70dc;
+}
+
+.zoom-select
+{
+	min-width: 80px;
+	width: 80px;
+}
+
+
+#select_add_type
+{
+	position: absolute;
+	display: none;
+	z-index: 10;
+	width: 320px;
+	height: 175px;
+
+	background: #FFF;
+
+	-webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.15);
+}
+
+#select_add_type:after
+{
+	content: ' ';
+	position: absolute;
+	top: -16px;
+	left: 20px;
+	height: 10px;
+
+	border: 8px solid;
+	border-color: transparent transparent #FFF transparent;
+}
+
+.add_type_title
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #292D32;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.add_type_options
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.add_type_options > button
+{
+	margin-right: 5px;
+}
+
+
+
+#services_map *, #services_map *:before, #services_map *:after {
+	box-sizing: inherit;
+}
+
+.goto-center
+{
+	float: left;
+	border: 1px solid #e3eaf3;
+	margin-right: 10px;
+	max-width: calc(100% - 179px);
+}
+
+#zoom-out
+{
+	float: left;
+	border: 1px solid #e3eaf3;
+	border-right: 1px solid #e4ebf3 !important;
+}
+
+#zoom-dropdown
+{
+	float: left;
+	border-top: 1px solid #e3eaf3;
+	border-bottom: 1px solid #e3eaf3;
+	width: 80px;
+}
+
+#zoom-in
+{
+	float: left;
+	border: 1px solid #e3eaf3;
+	border-left: 1px solid #e4ebf3 !important;
+}
+
+.map_divider
+{
+	border-bottom: 1px solid #E4EBF3;
+	margin: 30px 40px 0;
+}
+
+.edit_categ_name_span
+{
+	display: block;
+	width: 115px;
+}
+
+@media only screen and (max-width: 768px)
+{
+
+	.drag-top-arrow, .drag-bottom-arrow
+	{
+		width: 60px;
+		height: 20px;
+	}
+	.drag-left-arrow, .drag-right-arrow
+	{
+		height: 60px;
+		width: 20px;
+	}
+
+
+	
+}

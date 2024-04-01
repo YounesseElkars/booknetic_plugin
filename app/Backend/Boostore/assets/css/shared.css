@@ -1,0 +1,95 @@
+.boostore_price span {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #292d32;
+}
+
+.boostore_price span.discount {
+  font-size: 18px;
+  font-weight: 400;
+  color: #828f9a;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
+
+.boostore_price span.free {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 5px 10px;
+  height: max-content;
+  border-radius: 2px;
+  background-color: #29c973;
+  color: #fff;
+}
+
+.boostore_rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boostore_rating i {
+  color: #dddddd;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+}
+
+.boostore_rating i.filled {
+  color: #f7b500;
+}
+
+.boostore_rating > span {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #828f9a;
+}
+
+.boostore .btn {
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px;
+  text-transform: uppercase;
+}
+
+.boostore .btn-red {
+  background-color: rgba(252, 15, 62, 0.15) !important;
+  color: #fc0f3e !important;
+  border: 1px solid rgba(252, 15, 62, 0.15) !important;
+}
+
+.boostore .btn-red:focus {
+  background-color: rgba(252, 15, 62, 0.2) !important;
+}
+
+.boostore .btn-action {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #828f9a;
+  outline: none;
+  border: none;
+  padding: 0;
+  -webkit-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}
+
+.boostore .btn-action:hover {
+  opacity: 0.7;
+}
+
+#bkntc_cart_items_counter {
+  left: 5px;
+}

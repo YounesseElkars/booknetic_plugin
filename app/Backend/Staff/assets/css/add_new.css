@@ -1,0 +1,132 @@
+.fs-modal .special-day-row:not(:first-child)
+{
+	border-top: 1px dashed #c0d6df;
+	padding-top: 20px;
+}
+
+.fs-modal .break_line .breaks-label:not(:first-child)
+{
+	display: none;
+}
+
+.fs-modal .add-break-btn, .fs-modal .special-day-add-break-btn, .fs-modal .remove-special-day-btn
+{
+	color: #828F9A;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.fs-modal .add-break-btn > i, .fs-modal .special-day-add-break-btn > i , .fs-modal .remove-special-day-btn > i
+{
+	color: #c7cfd9;
+	font-size: 17px;
+	padding-right: 8px;
+}
+
+.fs-modal .day_off_checkbox
+{
+	margin-top: 29px;
+	border: 1px solid #e3eaf3;
+	padding: 13px 5px 2px;
+	width: 100%;
+	height: 46px;
+	text-align: center;
+	line-height: 26px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #8b97a1;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.fs-modal .timesheet-label
+{
+	color: #585CBA;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.fs-modal .breaks-label
+{
+	color: #FD9B78;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.fs-modal .delete-break-btn
+{
+	width: 18px;
+	height: 18px;
+	margin-top: 42px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.fs-modal .copy_time_to_all
+{
+	color: #adbfc7;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.fs-modal .input-group > :first-child .select2-selection
+{
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.fs-modal .input-group > :last-child .select2-selection
+{
+	border-left: 0;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+.fs-modal .days_divider2
+{
+	width: 100%;
+	border-bottom: 1px solid #e3eaf3;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+.fs-modal .sd_break_footer
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.year-neighbor2, .year-neighbor
+{
+	display: none;
+}
+.calendar .months-container
+{
+	margin: -20px;
+}
+.calendar .month-container
+{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.calendar-header
+{
+	margin: -20px -4px 15px -4px !important;
+	width: calc(100% + 8px) !important;
+}
+#hideStaffBtn
+{
+	position: absolute;
+	left: 30px;
+}
+
+html[dir="rtl"] #hideStaffBtn
+{
+	left: unset;
+	right: 30px;
+}
